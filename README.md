@@ -44,6 +44,7 @@ Click the "Add New" button in the top right corner, select "Import Data Project"
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import1.png?raw=true)
 
 Using the JSON file from the GitHub ([here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/raw/main/Snowflake/SAP%20Accelerators%20V2_Snowflake_2022-11-22.json)) drag or browse and add to the Import Data Project window and give it a name.
+
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import2.png?raw=true)
 
 Choose the "Space" you want to Import into - make sure it is a "Space" that the Data Movement Gateway can access:
@@ -51,8 +52,11 @@ Choose the "Space" you want to Import into - make sure it is a "Space" that the 
 
 Choose the Data platform:
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import4.png?raw=true)
+
 and the data connection:
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import5.png?raw=true)
+
 Next map the SAP Extractor Connector to the Source Connection, this connection should have been setup during the Gateway setup if not instructions here ([SAP Extractor Setup](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/DataIntegration/SourcesConnections/SAP-Extractor/SAP-Extractor-source.htm)):
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import6.png?raw=true)
+
 Keep the other defaults if desired.
