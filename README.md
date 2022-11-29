@@ -51,12 +51,15 @@ Choose the "Space" you want to Import into - make sure it is a "Space" that the 
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import3.png?raw=true)
 
 Choose the Data platform:
+
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import4.png?raw=true)
 
 and the data connection:
+
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import5.png?raw=true)
 
 Next map the SAP Extractor Connector to the Source Connection, this connection should have been setup during the Gateway setup if not instructions here ([SAP Extractor Setup](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/DataIntegration/SourcesConnections/SAP-Extractor/SAP-Extractor-source.htm)):
+
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import6.png?raw=true)
 
 Keep the other defaults if desired.
