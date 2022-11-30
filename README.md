@@ -83,3 +83,56 @@ While "Landing" is loading, we can "Prepare" the "Storage" layer. Select all "St
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/image10.png?raw=true)
 
 Once the data is finished loading into the "Landing" layer.  We can "Prepare" and "Run" all the other tasks. The final state should look similar to this:
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/image11.png?raw=true)
+
+## Start of Qlik Data Analytics Install (Orders to Cash example)
+
+We move back into the "Analytic Service" side of the SaaS platform. 
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import12.png?raw=true)
+
+Moving into our selected analytics space in the catalog, we need to import the three SAP Accelerator apps. 
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import13.png?raw=true)
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/image14.png?raw=true)
+
+## SAP Extraction App (Orders to Cash)
+
+The first app we need to adjust is the SAP Extract App. This app pulls the data from Snowflake and creates a stage/merge file in Qlik. We need to make an adjustment in the script to adjust for your Qlik SaaS setup. 
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import15.png?raw=true)
+
+This section will need to be adjusted for the Analytics Snowflake connection and the "Space" for said connection.
+*// 📝 Step 1 - Identify what library connection will be used to talk to the datamart source
+LIB CONNECT TO 'SAP_QCDI:Snowflake QCDI V2';*
+
+In the next section, need to adjust for "Space" name and QVD storage (default is DataFiles). Also, need to set the Database and Schema from the Qlik Cloud Integration DataMart output (orders2cash_dm is the default).
+/*/ 📝 Step 2 - Identify what connection and path will be used to store the raw data QVD's and what vendor we are pulling for
+SET vStorageConnection = 'SAP_QCDI:DataFiles/';
+// Vendor names can be anything. QCDI represents the expected base model. If base modifications are required then it can be changed to be vendor specific
+SET vVendor = 'QCDI';
+Set vDatabase = 'SAP_ACCEL_IMPORT';
+Set vSchema = 'orders2cash_dm';*
+
+Once those changes are made, run the Load Data option. The merge/stage files will be automatically created in Qlik SaaS.
+
+## SAP Transform App (Orders to Cash)
+
+Similarly in the SAP Transform App we need to update locations/spaces. Just make sure the "Space" and "DataFiles" setting are correct, and everything else will run automatically. This app turns the 2-D datamart data into the multidimensional construct Qlik uses for complex calculations and data mapppings.
+
+*SET vRawStorageConnection = 'SAP_QCDI:DataFiles/QCDI_';
+SET vStage2StorageConnection = 'SAP_QCDI:DataFiles/QCDI_';*
+
+## SAP Analytics App (Orders to Cash)
+
+This is the final app and what the users will consume. 
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/Slide10.png?raw=true)
+
+We need to update locations/spaces. Just make sure the "Space" and "DataFiles" setting are correct, and everything else will run automatically.
+
+*SET vStage2StorageConnection = 'SAP_QCDI:DataFiles/QCDI_';*
+
+Repeat the Qllik Analytics steps above for the other two subject areas **Financial Analytics** and **Inventory Management.**
