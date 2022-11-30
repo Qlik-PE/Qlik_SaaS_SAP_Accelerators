@@ -1,4 +1,4 @@
-# **Qlik SaaS SAP Accelerators**
+# **Qlik SaaS SAP Accelerators created by Qlik Partner Engineering (Dave Freriks and Dalton Ruer)**
 
 The SAP Accelerators are quick start templated designed against a STANDARD SAP IDES install to demonstrate the art of the possible for extraction, transformation, and analytics using the Qlik SaaS Platform which includes both Qlik Cloud Data Integration and Qlik Cloud Analytics.
 
