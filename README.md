@@ -48,6 +48,7 @@ Using the JSON file from the GitHub ([here](https://github.com/Qlik-PE/Qlik_SaaS
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import2.png?raw=true)
 
 Choose the "Space" you want to Import into - make sure it is a "Space" that the Data Movement Gateway can access:
+
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import3.png?raw=true)
 
 Choose the Data platform:
@@ -59,7 +60,25 @@ and the data connection:
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import5.png?raw=true)
 
 Next map the SAP Extractor Connector to the Source Connection, this connection should have been setup during the Gateway setup if not instructions here ([SAP Extractor Setup](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/DataIntegration/SourcesConnections/SAP-Extractor/SAP-Extractor-source.htm)):
-
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import6.png?raw=true)
 
-Keep the other defaults if desired.
+Keep the other defaults if desired. And select IMPORT to start the import.
+
+## Running the Imported Project
+
+We should now see this:
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import7.png?raw=true)
+
+Assuming our connections are setup correctly - we can start executing the model. Currently each element needs to be "Prepared" and "Run" individually. There is a feature update coming to execute in batch coming soon.
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import8.png?raw=true)
+
+Run the Prepare on all the "Landing" tasks. You will see "Creating Artifacts" and when complete, "Ready to run" will display. Go ahead and "Run" the "Landing" tasks. Depending on the size of your SAP system and the sizing of the Cloud Data Warehouse system...
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/image9.png?raw=true)
+
+While "Landing" is loading, we can "Prepare" the "Storage" layer. Select all "Store" tasks and "Prepare". It should look like this now:
+
+![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/image10.png?raw=true)
+
+Once the data is finished loading into the "Landing" layer.  We can "Prepare" and "Run" all the other tasks. The final state should look similar to this:
