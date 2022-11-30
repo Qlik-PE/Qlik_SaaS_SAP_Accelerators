@@ -105,10 +105,12 @@ The first app we need to adjust is the SAP Extract App. This app pulls the data 
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import15.png?raw=true)
 
 This section will need to be adjusted for the Analytics Snowflake connection and the "Space" for said connection.
+
 *// 📝 Step 1 - Identify what library connection will be used to talk to the datamart source
 LIB CONNECT TO 'SAP_QCDI:Snowflake QCDI V2';*
 
 In the next section, need to adjust for "Space" name and QVD storage (default is DataFiles). Also, need to set the Database and Schema from the Qlik Cloud Integration DataMart output (orders2cash_dm is the default).
+
 /*/ 📝 Step 2 - Identify what connection and path will be used to store the raw data QVD's and what vendor we are pulling for
 SET vStorageConnection = 'SAP_QCDI:DataFiles/';
 // Vendor names can be anything. QCDI represents the expected base model. If base modifications are required then it can be changed to be vendor specific
