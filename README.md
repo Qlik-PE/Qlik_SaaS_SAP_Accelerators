@@ -43,7 +43,7 @@ From inside your Qlik SaaS system, select Data Services
 Click the "Add New" button in the top right corner, select "Import Data Project"
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import1.png?raw=true)
 
-Using the JSON file from the GitHub ([here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/raw/main/Snowflake/SAP%20Accelerators%20V2_Snowflake_2022-11-22.json)) drag or browse and add to the Import Data Project window and give it a name.
+Using the JSON file from the GitHub (by Data Platfomr) then drag or browse and add to the Import Data Project window and give it a name.
 
 ![enter image description here](https://github.com/Qlik-PE/Qlik_SaaS_SAP_Accelerators/blob/main/images/import2.png?raw=true)
 
