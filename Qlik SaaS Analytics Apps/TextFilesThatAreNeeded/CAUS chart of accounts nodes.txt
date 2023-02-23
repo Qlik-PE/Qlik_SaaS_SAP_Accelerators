@@ -1,0 +1,435 @@
+-----------------------------------------------------
+| DataSource          0GL_ACCOUNT_T011_HIER         |
+| Struktur            DTFIGL_HIERNODE               |
+-----------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID(NODEI|InfoObject(IOBJNM)            |Node name(NODENAME)             |Le|L|Parent I|Child ID|Next ID(|Valid from|To(DATETO)|I|Field(FIELDNM)                |Chrt|G/L acct(S|S|(|
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|       1|0HIER_NODE                    |CAUS                            | 1| |        |       2|        |          |          | |NODENAME                      |    |          | | |
+|       2|0HIER_NODE                    |CAUS1000000                     | 2| |       1|       3|     162|          |          | |NODENAME                      |    |          | | |
+|       3|0HIER_NODE                    |CAUS1010000                     | 3| |       2|       4|     122|          |          | |NODENAME                      |    |          | | |
+|       4|0HIER_NODE                    |CAUS1011000                     | 4| |       3|       5|      45|          |          | |NODENAME                      |    |          | | |
+|       5|0HIER_NODE                    |CAUS1011100                     | 5| |       4|       6|      12|          |          | |NODENAME                      |    |          | | |
+|       6|0GL_ACCOUNT                   |CAUS0000100000                  | 6| |       5|        |       7|          |          | |SAKNR                         |CAUS|100000    | | |
+|       7|0GL_ACCOUNT                   |CAUS0000100009                  | 6| |       5|        |       8|          |          | |SAKNR                         |CAUS|100009    | | |
+|       8|0GL_ACCOUNT                   |CAUS0000100030                  | 6| |       5|        |       9|          |          | |SAKNR                         |CAUS|100030    | | |
+|       9|0GL_ACCOUNT                   |CAUS0000101000                  | 6| |       5|        |      10|          |          | |SAKNR                         |CAUS|101000    | | |
+|      10|0GL_ACCOUNT                   |CAUS0000102000                  | 6| |       5|        |      11|          |          | |SAKNR                         |CAUS|102000    | | |
+|      11|0GL_ACCOUNT                   |CAUS0000102009                  | 6| |       5|        |        |          |          | |SAKNR                         |CAUS|102009    | | |
+|      12|0HIER_NODE                    |CAUS1011200                     | 5| |       4|      13|      17|          |          | |NODENAME                      |    |          | | |
+|      13|0GL_ACCOUNT                   |CAUS0000110000                  | 6| |      12|        |      14|          |          | |SAKNR                         |CAUS|110000    | | |
+|      14|0GL_ACCOUNT                   |CAUS0000110002                  | 6| |      12|        |      15|          |          | |SAKNR                         |CAUS|110002    | | |
+|      15|0GL_ACCOUNT                   |CAUS0000110005                  | 6| |      12|        |      16|          |          | |SAKNR                         |CAUS|110005    | | |
+|      16|0GL_ACCOUNT                   |CAUS0000110009                  | 6| |      12|        |        |          |          | |SAKNR                         |CAUS|110009    | | |
+|      17|0HIER_NODE                    |CAUS1011300                     | 5| |       4|      18|      31|          |          | |NODENAME                      |    |          | | |
+|      18|0GL_ACCOUNT                   |CAUS0000113100                  | 6| |      17|        |      19|          |          | |SAKNR                         |CAUS|113100    | | |
+|      19|0GL_ACCOUNT                   |CAUS0000113101                  | 6| |      17|        |      20|          |          | |SAKNR                         |CAUS|113101    | | |
+|      20|0GL_ACCOUNT                   |CAUS0000113102                  | 6| |      17|        |      21|          |          | |SAKNR                         |CAUS|113102    | | |
+|      21|0GL_ACCOUNT                   |CAUS0000113103                  | 6| |      17|        |      22|          |          | |SAKNR                         |CAUS|113103    | | |
+|      22|0GL_ACCOUNT                   |CAUS0000113104                  | 6| |      17|        |      23|          |          | |SAKNR                         |CAUS|113104    | | |
+|      23|0GL_ACCOUNT                   |CAUS0000113105                  | 6| |      17|        |      24|          |          | |SAKNR                         |CAUS|113105    | | |
+|      24|0GL_ACCOUNT                   |CAUS0000113108                  | 6| |      17|        |      25|          |          | |SAKNR                         |CAUS|113108    | | |
+|      25|0GL_ACCOUNT                   |CAUS0000113109                  | 6| |      17|        |      26|          |          | |SAKNR                         |CAUS|113109    | | |
+|      26|0GL_ACCOUNT                   |CAUS0000113113                  | 6| |      17|        |      27|          |          | |SAKNR                         |CAUS|113113    | | |
+|      27|0GL_ACCOUNT                   |CAUS0000113130                  | 6| |      17|        |      28|          |          | |SAKNR                         |CAUS|113130    | | |
+|      28|0GL_ACCOUNT                   |CAUS0000113131                  | 6| |      17|        |      29|          |          | |SAKNR                         |CAUS|113131    | | |
+|      29|0GL_ACCOUNT                   |CAUS0000113150                  | 6| |      17|        |      30|          |          | |SAKNR                         |CAUS|113150    | | |
+|      30|0GL_ACCOUNT                   |CAUS0000113160                  | 6| |      17|        |        |          |          | |SAKNR                         |CAUS|113160    | | |
+|      31|0HIER_NODE                    |CAUS1011400                     | 5| |       4|      32|      41|          |          | |NODENAME                      |    |          | | |
+|      32|0GL_ACCOUNT                   |CAUS0000113200                  | 6| |      31|        |      33|          |          | |SAKNR                         |CAUS|113200    | | |
+|      33|0GL_ACCOUNT                   |CAUS0000113201                  | 6| |      31|        |      34|          |          | |SAKNR                         |CAUS|113201    | | |
+|      34|0GL_ACCOUNT                   |CAUS0000113202                  | 6| |      31|        |      35|          |          | |SAKNR                         |CAUS|113202    | | |
+|      35|0GL_ACCOUNT                   |CAUS0000113203                  | 6| |      31|        |      36|          |          | |SAKNR                         |CAUS|113203    | | |
+|      36|0GL_ACCOUNT                   |CAUS0000113204                  | 6| |      31|        |      37|          |          | |SAKNR                         |CAUS|113204    | | |
+|      37|0GL_ACCOUNT                   |CAUS0000113205                  | 6| |      31|        |      38|          |          | |SAKNR                         |CAUS|113205    | | |
+|      38|0GL_ACCOUNT                   |CAUS0000113208                  | 6| |      31|        |      39|          |          | |SAKNR                         |CAUS|113208    | | |
+|      39|0GL_ACCOUNT                   |CAUS0000113209                  | 6| |      31|        |      40|          |          | |SAKNR                         |CAUS|113209    | | |
+|      40|0GL_ACCOUNT                   |CAUS0000113213                  | 6| |      31|        |        |          |          | |SAKNR                         |CAUS|113213    | | |
+|      41|0HIER_NODE                    |CAUS1011500                     | 5| |       4|      42|      43|          |          | |NODENAME                      |    |          | | |
+|      42|0GL_ACCOUNT                   |CAUS0000114000                  | 6| |      41|        |        |          |          | |SAKNR                         |CAUS|114000    | | |
+|      43|0HIER_NODE                    |CAUS1011600                     | 5| |       4|      44|        |          |          | |NODENAME                      |    |          | | |
+|      44|0GL_ACCOUNT                   |CAUS0000115000                  | 6| |      43|        |        |          |          | |SAKNR                         |CAUS|115000    | | |
+|      45|0HIER_NODE                    |CAUS1012000                     | 4| |       3|      46|      52|          |          | |NODENAME                      |    |          | | |
+|      46|0HIER_NODE                    |CAUS1012100                     | 5| |      45|      47|      49|          |          | |NODENAME                      |    |          | | |
+|      47|0GL_ACCOUNT                   |CAUS0000131000                  | 6| |      46|        |      48|          |          | |SAKNR                         |CAUS|131000    | | |
+|      48|0GL_ACCOUNT                   |CAUS0000132000                  | 6| |      46|        |        |          |          | |SAKNR                         |CAUS|132000    | | |
+|      49|0HIER_NODE                    |CAUS1012200                     | 5| |      45|      50|        |          |          | |NODENAME                      |    |          | | |
+|      50|0GL_ACCOUNT                   |CAUS0000045000                  | 6| |      49|        |      51|          |          | |SAKNR                         |CAUS|45000     | | |
+|      51|0GL_ACCOUNT                   |CAUS0000133000                  | 6| |      49|        |        |          |          | |SAKNR                         |CAUS|133000    | | |
+|      52|0HIER_NODE                    |CAUS1013000                     | 4| |       3|      53|      75|          |          | |NODENAME                      |    |          | | |
+|      53|0HIER_NODE                    |CAUS1013100                     | 5| |      52|      54|      64|          |          | |NODENAME                      |    |          | | |
+|      54|0GL_ACCOUNT                   |CAUS0000144002                  | 6| |      53|        |      55|          |          | |SAKNR                         |CAUS|144002    | | |
+|      55|0GL_ACCOUNT                   |CAUS0000144003                  | 6| |      53|        |      56|          |          | |SAKNR                         |CAUS|144003    | | |
+|      56|0GL_ACCOUNT                   |CAUS0000144102                  | 6| |      53|        |      57|          |          | |SAKNR                         |CAUS|144102    | | |
+|      57|0GL_ACCOUNT                   |CAUS0000144103                  | 6| |      53|        |      58|          |          | |SAKNR                         |CAUS|144103    | | |
+|      58|0GL_ACCOUNT                   |CAUS0000145000                  | 6| |      53|        |      59|          |          | |SAKNR                         |CAUS|145000    | | |
+|      59|0GL_ACCOUNT                   |CAUS0000145020                  | 6| |      53|        |      60|          |          | |SAKNR                         |CAUS|145020    | | |
+|      60|0GL_ACCOUNT                   |CAUS0000145099                  | 6| |      53|        |      61|          |          | |SAKNR                         |CAUS|145099    | | |
+|      61|0GL_ACCOUNT                   |CAUS0000159100                  | 6| |      53|        |      62|          |          | |SAKNR                         |CAUS|159100    | | |
+|      62|0GL_ACCOUNT                   |CAUS0000163000                  | 6| |      53|        |      63|          |          | |SAKNR                         |CAUS|163000    | | |
+|      63|0GL_ACCOUNT                   |CAUS0000197000                  | 6| |      53|        |        |          |          | |SAKNR                         |CAUS|197000    | | |
+|      64|0HIER_NODE                    |CAUS1013200                     | 5| |      52|      65|      72|          |          | |NODENAME                      |    |          | | |
+|      65|0GL_ACCOUNT                   |CAUS0000140000                  | 6| |      64|        |      66|          |          | |SAKNR                         |CAUS|140000    | | |
+|      66|0GL_ACCOUNT                   |CAUS0000140010                  | 6| |      64|        |      67|          |          | |SAKNR                         |CAUS|140010    | | |
+|      67|0GL_ACCOUNT                   |CAUS0000140099                  | 6| |      64|        |      68|          |          | |SAKNR                         |CAUS|140099    | | |
+|      68|0GL_ACCOUNT                   |CAUS0000141000                  | 6| |      64|        |      69|          |          | |SAKNR                         |CAUS|141000    | | |
+|      69|0GL_ACCOUNT                   |CAUS0000141010                  | 6| |      64|        |      70|          |          | |SAKNR                         |CAUS|141010    | | |
+|      70|0GL_ACCOUNT                   |CAUS0000141099                  | 6| |      64|        |      71|          |          | |SAKNR                         |CAUS|141099    | | |
+|      71|0GL_ACCOUNT                   |CAUS0000143100                  | 6| |      64|        |        |          |          | |SAKNR                         |CAUS|143100    | | |
+|      72|0HIER_NODE                    |CAUS1013300                     | 5| |      52|      73|        |          |          | |NODENAME                      |    |          | | |
+|      73|0GL_ACCOUNT                   |CAUS0000080000                  | 6| |      72|        |      74|          |          | |SAKNR                         |CAUS|80000     | | |
+|      74|0GL_ACCOUNT                   |CAUS0000142000                  | 6| |      72|        |        |          |          | |SAKNR                         |CAUS|142000    | | |
+|      75|0HIER_NODE                    |CAUS1015000                     | 4| |       3|      76|     100|          |          | |NODENAME                      |    |          | | |
+|      76|0HIER_NODE                    |CAUS1015100                     | 5| |      75|      77|      81|          |          | |NODENAME                      |    |          | | |
+|      77|0GL_ACCOUNT                   |CAUS0000300000                  | 6| |      76|        |      78|          |          | |SAKNR                         |CAUS|300000    | | |
+|      78|0GL_ACCOUNT                   |CAUS0000300100                  | 6| |      76|        |      79|          |          | |SAKNR                         |CAUS|300100    | | |
+|      79|0GL_ACCOUNT                   |CAUS0000300200                  | 6| |      76|        |      80|          |          | |SAKNR                         |CAUS|300200    | | |
+|      80|0GL_ACCOUNT                   |CAUS0000300300                  | 6| |      76|        |        |          |          | |SAKNR                         |CAUS|300300    | | |
+|      81|0HIER_NODE                    |CAUS1052000                     | 5| |      75|      82|      84|          |          | |NODENAME                      |    |          | | |
+|      82|0GL_ACCOUNT                   |CAUS0000790000                  | 6| |      81|        |      83|          |          | |SAKNR                         |CAUS|790000    | | |
+|      83|0GL_ACCOUNT                   |CAUS0000791000                  | 6| |      81|        |        |          |          | |SAKNR                         |CAUS|791000    | | |
+|      84|0HIER_NODE                    |CAUS1053000                     | 5| |      75|      85|      91|          |          | |NODENAME                      |    |          | | |
+|      85|0GL_ACCOUNT                   |CAUS0000191101                  | 6| |      84|        |      86|          |          | |SAKNR                         |CAUS|191101    | | |
+|      86|0GL_ACCOUNT                   |CAUS0000191102                  | 6| |      84|        |      87|          |          | |SAKNR                         |CAUS|191102    | | |
+|      87|0GL_ACCOUNT                   |CAUS0000310000                  | 6| |      84|        |      88|          |          | |SAKNR                         |CAUS|310000    | | |
+|      88|0GL_ACCOUNT                   |CAUS0000380000                  | 6| |      84|        |      89|          |          | |SAKNR                         |CAUS|380000    | | |
+|      89|0GL_ACCOUNT                   |CAUS0000390000                  | 6| |      84|        |      90|          |          | |SAKNR                         |CAUS|390000    | | |
+|      90|0GL_ACCOUNT                   |CAUS0000792000                  | 6| |      84|        |        |          |          | |SAKNR                         |CAUS|792000    | | |
+|      91|0HIER_NODE                    |CAUS1054000                     | 5| |      75|      92|      93|          |          | |NODENAME                      |    |          | | |
+|      92|0GL_ACCOUNT                   |CAUS0000303000                  | 6| |      91|        |        |          |          | |SAKNR                         |CAUS|303000    | | |
+|      93|0HIER_NODE                    |CAUS1055000                     | 5| |      75|      94|      97|          |          | |NODENAME                      |    |          | | |
+|      94|0GL_ACCOUNT                   |CAUS0000304000                  | 6| |      93|        |      95|          |          | |SAKNR                         |CAUS|304000    | | |
+|      95|0GL_ACCOUNT                   |CAUS0000304100                  | 6| |      93|        |      96|          |          | |SAKNR                         |CAUS|304100    | | |
+|      96|0GL_ACCOUNT                   |CAUS0000304200                  | 6| |      93|        |        |          |          | |SAKNR                         |CAUS|304200    | | |
+|      97|0HIER_NODE                    |CAUS1056000                     | 5| |      75|      98|        |          |          | |NODENAME                      |    |          | | |
+|      98|0GL_ACCOUNT                   |CAUS0000305000                  | 6| |      97|        |      99|          |          | |SAKNR                         |CAUS|305000    | | |
+|      99|0GL_ACCOUNT                   |CAUS0000310200                  | 6| |      97|        |        |          |          | |SAKNR                         |CAUS|310200    | | |
+|     100|0HIER_NODE                    |CAUS1016000                     | 4| |       3|     101|        |          |          | |NODENAME                      |    |          | | |
+|     101|0HIER_NODE                    |CAUS1061000                     | 5| |     100|     102|     105|          |          | |NODENAME                      |    |          | | |
+|     102|0GL_ACCOUNT                   |CAUS0000099000                  | 6| |     101|        |     103|          |          | |SAKNR                         |CAUS|99000     | | |
+|     103|0GL_ACCOUNT                   |CAUS0000120000                  | 6| |     101|        |     104|          |          | |SAKNR                         |CAUS|120000    | | |
+|     104|0GL_ACCOUNT                   |CAUS0000152000                  | 6| |     101|        |        |          |          | |SAKNR                         |CAUS|152000    | | |
+|     105|0HIER_NODE                    |CAUS1063000                     | 5| |     100|     106|     110|          |          | |NODENAME                      |    |          | | |
+|     106|0GL_ACCOUNT                   |CAUS0000042000                  | 6| |     105|        |     107|          |          | |SAKNR                         |CAUS|42000     | | |
+|     107|0GL_ACCOUNT                   |CAUS0000042020                  | 6| |     105|        |     108|          |          | |SAKNR                         |CAUS|42020     | | |
+|     108|0GL_ACCOUNT                   |CAUS0000044000                  | 6| |     105|        |     109|          |          | |SAKNR                         |CAUS|44000     | | |
+|     109|0GL_ACCOUNT                   |CAUS0000044020                  | 6| |     105|        |        |          |          | |SAKNR                         |CAUS|44020     | | |
+|     110|0HIER_NODE                    |CAUS1064000                     | 5| |     100|     111|        |          |          | |NODENAME                      |    |          | | |
+|     111|0GL_ACCOUNT                   |CAUS0000031000                  | 6| |     110|        |     112|          |          | |SAKNR                         |CAUS|31000     | | |
+|     112|0GL_ACCOUNT                   |CAUS0000039000                  | 6| |     110|        |     113|          |          | |SAKNR                         |CAUS|39000     | | |
+|     113|0GL_ACCOUNT                   |CAUS0000091000                  | 6| |     110|        |     114|          |          | |SAKNR                         |CAUS|91000     | | |
+|     114|0GL_ACCOUNT                   |CAUS0000095000                  | 6| |     110|        |     115|          |          | |SAKNR                         |CAUS|95000     | | |
+|     115|0GL_ACCOUNT                   |CAUS0000098000                  | 6| |     110|        |     116|          |          | |SAKNR                         |CAUS|98000     | | |
+|     116|0GL_ACCOUNT                   |CAUS0000151000                  | 6| |     110|        |     117|          |          | |SAKNR                         |CAUS|151000    | | |
+|     117|0GL_ACCOUNT                   |CAUS0000151102                  | 6| |     110|        |     118|          |          | |SAKNR                         |CAUS|151102    | | |
+|     118|0GL_ACCOUNT                   |CAUS0000151103                  | 6| |     110|        |     119|          |          | |SAKNR                         |CAUS|151103    | | |
+|     119|0GL_ACCOUNT                   |CAUS0000155000                  | 6| |     110|        |     120|          |          | |SAKNR                         |CAUS|155000    | | |
+|     120|0GL_ACCOUNT                   |CAUS0000156000                  | 6| |     110|        |     121|          |          | |SAKNR                         |CAUS|156000    | | |
+|     121|0GL_ACCOUNT                   |CAUS0000159000                  | 6| |     110|        |        |          |          | |SAKNR                         |CAUS|159000    | | |
+|     122|0HIER_NODE                    |CAUS1020000                     | 3| |       2|     123|        |          |          | |NODENAME                      |    |          | | |
+|     123|0HIER_NODE                    |CAUS1021000                     | 4| |     122|     124|     140|          |          | |NODENAME                      |    |          | | |
+|     124|0HIER_NODE                    |CAUS1021100                     | 5| |     123|     125|     132|          |          | |NODENAME                      |    |          | | |
+|     125|0GL_ACCOUNT                   |CAUS0000001000                  | 6| |     124|        |     126|          |          | |SAKNR                         |CAUS|1000      | | |
+|     126|0GL_ACCOUNT                   |CAUS0000002000                  | 6| |     124|        |     127|          |          | |SAKNR                         |CAUS|2000      | | |
+|     127|0GL_ACCOUNT                   |CAUS0000011000                  | 6| |     124|        |     128|          |          | |SAKNR                         |CAUS|11000     | | |
+|     128|0GL_ACCOUNT                   |CAUS0000012000                  | 6| |     124|        |     129|          |          | |SAKNR                         |CAUS|12000     | | |
+|     129|0GL_ACCOUNT                   |CAUS0000021000                  | 6| |     124|        |     130|          |          | |SAKNR                         |CAUS|21000     | | |
+|     130|0GL_ACCOUNT                   |CAUS0000022000                  | 6| |     124|        |     131|          |          | |SAKNR                         |CAUS|22000     | | |
+|     131|0GL_ACCOUNT                   |CAUS0000034000                  | 6| |     124|        |        |          |          | |SAKNR                         |CAUS|34000     | | |
+|     132|0HIER_NODE                    |CAUS1021200                     | 5| |     123|     133|        |          |          | |NODENAME                      |    |          | | |
+|     133|0GL_ACCOUNT                   |CAUS0000001010                  | 6| |     132|        |     134|          |          | |SAKNR                         |CAUS|1010      | | |
+|     134|0GL_ACCOUNT                   |CAUS0000002010                  | 6| |     132|        |     135|          |          | |SAKNR                         |CAUS|2010      | | |
+|     135|0GL_ACCOUNT                   |CAUS0000011010                  | 6| |     132|        |     136|          |          | |SAKNR                         |CAUS|11010     | | |
+|     136|0GL_ACCOUNT                   |CAUS0000012010                  | 6| |     132|        |     137|          |          | |SAKNR                         |CAUS|12010     | | |
+|     137|0GL_ACCOUNT                   |CAUS0000021010                  | 6| |     132|        |     138|          |          | |SAKNR                         |CAUS|21010     | | |
+|     138|0GL_ACCOUNT                   |CAUS0000022010                  | 6| |     132|        |     139|          |          | |SAKNR                         |CAUS|22010     | | |
+|     139|0GL_ACCOUNT                   |CAUS0000034010                  | 6| |     132|        |        |          |          | |SAKNR                         |CAUS|34010     | | |
+|     140|0HIER_NODE                    |CAUS1022000                     | 4| |     122|     141|     145|          |          | |NODENAME                      |    |          | | |
+|     141|0HIER_NODE                    |CAUS1022100                     | 5| |     140|     142|     143|          |          | |NODENAME                      |    |          | | |
+|     142|0GL_ACCOUNT                   |CAUS0000041000                  | 6| |     141|        |        |          |          | |SAKNR                         |CAUS|41000     | | |
+|     143|0HIER_NODE                    |CAUS1022200                     | 5| |     140|     144|        |          |          | |NODENAME                      |    |          | | |
+|     144|0GL_ACCOUNT                   |CAUS0000043000                  | 6| |     143|        |        |          |          | |SAKNR                         |CAUS|43000     | | |
+|     145|0HIER_NODE                    |CAUS1023000                     | 4| |     122|     146|        |          |          | |NODENAME                      |    |          | | |
+|     146|0HIER_NODE                    |CAUS1023100                     | 5| |     145|     147|     151|          |          | |NODENAME                      |    |          | | |
+|     147|0GL_ACCOUNT                   |CAUS0000140020                  | 6| |     146|        |     148|          |          | |SAKNR                         |CAUS|140020    | | |
+|     148|0GL_ACCOUNT                   |CAUS0000141020                  | 6| |     146|        |     149|          |          | |SAKNR                         |CAUS|141020    | | |
+|     149|0GL_ACCOUNT                   |CAUS0000144020                  | 6| |     146|        |     150|          |          | |SAKNR                         |CAUS|144020    | | |
+|     150|0GL_ACCOUNT                   |CAUS0000159200                  | 6| |     146|        |        |          |          | |SAKNR                         |CAUS|159200    | | |
+|     151|0HIER_NODE                    |CAUS1023200                     | 5| |     145|     152|     156|          |          | |NODENAME                      |    |          | | |
+|     152|0GL_ACCOUNT                   |CAUS0000035000                  | 6| |     151|        |     153|          |          | |SAKNR                         |CAUS|35000     | | |
+|     153|0GL_ACCOUNT                   |CAUS0000036000                  | 6| |     151|        |     154|          |          | |SAKNR                         |CAUS|36000     | | |
+|     154|0GL_ACCOUNT                   |CAUS0000037000                  | 6| |     151|        |     155|          |          | |SAKNR                         |CAUS|37000     | | |
+|     155|0GL_ACCOUNT                   |CAUS0000038000                  | 6| |     151|        |        |          |          | |SAKNR                         |CAUS|38000     | | |
+|     156|0HIER_NODE                    |CAUS1023300                     | 5| |     145|     157|        |          |          | |NODENAME                      |    |          | | |
+|     157|0GL_ACCOUNT                   |CAUS0000035010                  | 6| |     156|        |     158|          |          | |SAKNR                         |CAUS|35010     | | |
+|     158|0GL_ACCOUNT                   |CAUS0000036010                  | 6| |     156|        |     159|          |          | |SAKNR                         |CAUS|36010     | | |
+|     159|0GL_ACCOUNT                   |CAUS0000037010                  | 6| |     156|        |     160|          |          | |SAKNR                         |CAUS|37010     | | |
+|     160|0GL_ACCOUNT                   |CAUS0000038010                  | 6| |     156|        |     161|          |          | |SAKNR                         |CAUS|38010     | | |
+|     161|0GL_ACCOUNT                   |CAUS0000166000                  | 6| |     156|        |        |          |          | |SAKNR                         |CAUS|166000    | | |
+|     162|0HIER_NODE                    |CAUS2000000                     | 2| |       1|     163|     279|          |          | |NODENAME                      |    |          | | |
+|     163|0HIER_NODE                    |CAUS2010000                     | 3| |     162|     164|     233|          |          | |NODENAME                      |    |          | | |
+|     164|0HIER_NODE                    |CAUS2011000                     | 4| |     163|     165|     174|          |          | |NODENAME                      |    |          | | |
+|     165|0HIER_NODE                    |CAUS2011100                     | 5| |     164|     166|     170|          |          | |NODENAME                      |    |          | | |
+|     166|0GL_ACCOUNT                   |CAUS0000046000                  | 6| |     165|        |     167|          |          | |SAKNR                         |CAUS|46000     | | |
+|     167|0GL_ACCOUNT                   |CAUS0000060110                  | 6| |     165|        |     168|          |          | |SAKNR                         |CAUS|60110     | | |
+|     168|0GL_ACCOUNT                   |CAUS0000060310                  | 6| |     165|        |     169|          |          | |SAKNR                         |CAUS|60310     | | |
+|     169|0GL_ACCOUNT                   |CAUS0000062110                  | 6| |     165|        |        |          |          | |SAKNR                         |CAUS|62110     | | |
+|     170|0HIER_NODE                    |CAUS2011200                     | 5| |     164|     171|        |          |          | |NODENAME                      |    |          | | |
+|     171|0GL_ACCOUNT                   |CAUS0000060210                  | 6| |     170|        |     172|          |          | |SAKNR                         |CAUS|60210     | | |
+|     172|0GL_ACCOUNT                   |CAUS0000060410                  | 6| |     170|        |     173|          |          | |SAKNR                         |CAUS|60410     | | |
+|     173|0GL_ACCOUNT                   |CAUS0000062210                  | 6| |     170|        |        |          |          | |SAKNR                         |CAUS|62210     | | |
+|     174|0HIER_NODE                    |CAUS2012000                     | 4| |     163|     175|     198|          |          | |NODENAME                      |    |          | | |
+|     175|0HIER_NODE                    |CAUS2012100                     | 5| |     174|     176|     181|          |          | |NODENAME                      |    |          | | |
+|     176|0GL_ACCOUNT                   |CAUS0000143000                  | 6| |     175|        |     177|          |          | |SAKNR                         |CAUS|143000    | | |
+|     177|0GL_ACCOUNT                   |CAUS0000165000                  | 6| |     175|        |     178|          |          | |SAKNR                         |CAUS|165000    | | |
+|     178|0GL_ACCOUNT                   |CAUS0000165099                  | 6| |     175|        |     179|          |          | |SAKNR                         |CAUS|165099    | | |
+|     179|0GL_ACCOUNT                   |CAUS0000169900                  | 6| |     175|        |     180|          |          | |SAKNR                         |CAUS|169900    | | |
+|     180|0GL_ACCOUNT                   |CAUS0000197100                  | 6| |     175|        |        |          |          | |SAKNR                         |CAUS|197100    | | |
+|     181|0HIER_NODE                    |CAUS2012200                     | 5| |     174|     182|        |          |          | |NODENAME                      |    |          | | |
+|     182|0GL_ACCOUNT                   |CAUS0000160000                  | 6| |     181|        |     183|          |          | |SAKNR                         |CAUS|160000    | | |
+|     183|0GL_ACCOUNT                   |CAUS0000160010                  | 6| |     181|        |     184|          |          | |SAKNR                         |CAUS|160010    | | |
+|     184|0GL_ACCOUNT                   |CAUS0000160099                  | 6| |     181|        |     185|          |          | |SAKNR                         |CAUS|160099    | | |
+|     185|0GL_ACCOUNT                   |CAUS0000161000                  | 6| |     181|        |     186|          |          | |SAKNR                         |CAUS|161000    | | |
+|     186|0GL_ACCOUNT                   |CAUS0000161010                  | 6| |     181|        |     187|          |          | |SAKNR                         |CAUS|161010    | | |
+|     187|0GL_ACCOUNT                   |CAUS0000161099                  | 6| |     181|        |     188|          |          | |SAKNR                         |CAUS|161099    | | |
+|     188|0GL_ACCOUNT                   |CAUS0000163100                  | 6| |     181|        |     189|          |          | |SAKNR                         |CAUS|163100    | | |
+|     189|0GL_ACCOUNT                   |CAUS0000164002                  | 6| |     181|        |     190|          |          | |SAKNR                         |CAUS|164002    | | |
+|     190|0GL_ACCOUNT                   |CAUS0000164003                  | 6| |     181|        |     191|          |          | |SAKNR                         |CAUS|164003    | | |
+|     191|0GL_ACCOUNT                   |CAUS0000164102                  | 6| |     181|        |     192|          |          | |SAKNR                         |CAUS|164102    | | |
+|     192|0GL_ACCOUNT                   |CAUS0000164103                  | 6| |     181|        |     193|          |          | |SAKNR                         |CAUS|164103    | | |
+|     193|0GL_ACCOUNT                   |CAUS0000194002                  | 6| |     181|        |     194|          |          | |SAKNR                         |CAUS|194002    | | |
+|     194|0GL_ACCOUNT                   |CAUS0000194003                  | 6| |     181|        |     195|          |          | |SAKNR                         |CAUS|194003    | | |
+|     195|0GL_ACCOUNT                   |CAUS0000194004                  | 6| |     181|        |     196|          |          | |SAKNR                         |CAUS|194004    | | |
+|     196|0GL_ACCOUNT                   |CAUS0000194005                  | 6| |     181|        |     197|          |          | |SAKNR                         |CAUS|194005    | | |
+|     197|0GL_ACCOUNT                   |CAUS0000194006                  | 6| |     181|        |        |          |          | |SAKNR                         |CAUS|194006    | | |
+|     198|0HIER_NODE                    |CAUS2014000                     | 4| |     163|     199|     209|          |          | |NODENAME                      |    |          | | |
+|     199|0HIER_NODE                    |CAUS2014100                     | 5| |     198|     200|     201|          |          | |NODENAME                      |    |          | | |
+|     200|0GL_ACCOUNT                   |CAUS0000175000                  | 6| |     199|        |        |          |          | |SAKNR                         |CAUS|175000    | | |
+|     201|0HIER_NODE                    |CAUS2014200                     | 5| |     198|     202|        |          |          | |NODENAME                      |    |          | | |
+|     202|0GL_ACCOUNT                   |CAUS0000087000                  | 6| |     201|        |     203|          |          | |SAKNR                         |CAUS|87000     | | |
+|     203|0GL_ACCOUNT                   |CAUS0000088000                  | 6| |     201|        |     204|          |          | |SAKNR                         |CAUS|88000     | | |
+|     204|0GL_ACCOUNT                   |CAUS0000176100                  | 6| |     201|        |     205|          |          | |SAKNR                         |CAUS|176100    | | |
+|     205|0GL_ACCOUNT                   |CAUS0000176500                  | 6| |     201|        |     206|          |          | |SAKNR                         |CAUS|176500    | | |
+|     206|0GL_ACCOUNT                   |CAUS0000178100                  | 6| |     201|        |     207|          |          | |SAKNR                         |CAUS|178100    | | |
+|     207|0GL_ACCOUNT                   |CAUS0000950000                  | 6| |     201|        |     208|          |          | |SAKNR                         |CAUS|950000    | | |
+|     208|0GL_ACCOUNT                   |CAUS0000960000                  | 6| |     201|        |        |          |          | |SAKNR                         |CAUS|960000    | | |
+|     209|0HIER_NODE                    |CAUS2015000                     | 4| |     163|     210|        |          |          | |NODENAME                      |    |          | | |
+|     210|0HIER_NODE                    |CAUS2015100                     | 5| |     209|     211|     212|          |          | |NODENAME                      |    |          | | |
+|     211|0GL_ACCOUNT                   |CAUS0000176000                  | 6| |     210|        |        |          |          | |SAKNR                         |CAUS|176000    | | |
+|     212|0HIER_NODE                    |CAUS2015200                     | 5| |     209|     213|     215|          |          | |NODENAME                      |    |          | | |
+|     213|0GL_ACCOUNT                   |CAUS0000176200                  | 6| |     212|        |     214|          |          | |SAKNR                         |CAUS|176200    | | |
+|     214|0GL_ACCOUNT                   |CAUS0000176700                  | 6| |     212|        |        |          |          | |SAKNR                         |CAUS|176700    | | |
+|     215|0HIER_NODE                    |CAUS2015300                     | 5| |     209|     216|     228|          |          | |NODENAME                      |    |          | | |
+|     216|0GL_ACCOUNT                   |CAUS0000078100                  | 6| |     215|        |     217|          |          | |SAKNR                         |CAUS|78100     | | |
+|     217|0GL_ACCOUNT                   |CAUS0000085000                  | 6| |     215|        |     218|          |          | |SAKNR                         |CAUS|85000     | | |
+|     218|0GL_ACCOUNT                   |CAUS0000089000                  | 6| |     215|        |     219|          |          | |SAKNR                         |CAUS|89000     | | |
+|     219|0GL_ACCOUNT                   |CAUS0000176400                  | 6| |     215|        |     220|          |          | |SAKNR                         |CAUS|176400    | | |
+|     220|0GL_ACCOUNT                   |CAUS0000179100                  | 6| |     215|        |     221|          |          | |SAKNR                         |CAUS|179100    | | |
+|     221|0GL_ACCOUNT                   |CAUS0000192100                  | 6| |     215|        |     222|          |          | |SAKNR                         |CAUS|192100    | | |
+|     222|0GL_ACCOUNT                   |CAUS0000192200                  | 6| |     215|        |     223|          |          | |SAKNR                         |CAUS|192200    | | |
+|     223|0GL_ACCOUNT                   |CAUS0000192300                  | 6| |     215|        |     224|          |          | |SAKNR                         |CAUS|192300    | | |
+|     224|0GL_ACCOUNT                   |CAUS0000192400                  | 6| |     215|        |     225|          |          | |SAKNR                         |CAUS|192400    | | |
+|     225|0GL_ACCOUNT                   |CAUS0000192500                  | 6| |     215|        |     226|          |          | |SAKNR                         |CAUS|192500    | | |
+|     226|0GL_ACCOUNT                   |CAUS0000193000                  | 6| |     215|        |     227|          |          | |SAKNR                         |CAUS|193000    | | |
+|     227|0GL_ACCOUNT                   |CAUS0000196100                  | 6| |     215|        |        |          |          | |SAKNR                         |CAUS|196100    | | |
+|     228|0HIER_NODE                    |CAUS2015400                     | 5| |     209|     229|        |          |          | |NODENAME                      |    |          | | |
+|     229|0GL_ACCOUNT                   |CAUS0000170000                  | 6| |     228|        |     230|          |          | |SAKNR                         |CAUS|170000    | | |
+|     230|0GL_ACCOUNT                   |CAUS0000170099                  | 6| |     228|        |     231|          |          | |SAKNR                         |CAUS|170099    | | |
+|     231|0GL_ACCOUNT                   |CAUS0000171002                  | 6| |     228|        |     232|          |          | |SAKNR                         |CAUS|171002    | | |
+|     232|0GL_ACCOUNT                   |CAUS0000171003                  | 6| |     228|        |        |          |          | |SAKNR                         |CAUS|171003    | | |
+|     233|0HIER_NODE                    |CAUS2020000                     | 3| |     162|     234|     273|          |          | |NODENAME                      |    |          | | |
+|     234|0HIER_NODE                    |CAUS2021000                     | 4| |     233|     235|     250|          |          | |NODENAME                      |    |          | | |
+|     235|0HIER_NODE                    |CAUS2021100                     | 5| |     234|     236|     243|          |          | |NODENAME                      |    |          | | |
+|     236|0GL_ACCOUNT                   |CAUS0000046020                  | 6| |     235|        |     237|          |          | |SAKNR                         |CAUS|46020     | | |
+|     237|0GL_ACCOUNT                   |CAUS0000060120                  | 6| |     235|        |     238|          |          | |SAKNR                         |CAUS|60120     | | |
+|     238|0GL_ACCOUNT                   |CAUS0000060130                  | 6| |     235|        |     239|          |          | |SAKNR                         |CAUS|60130     | | |
+|     239|0GL_ACCOUNT                   |CAUS0000060320                  | 6| |     235|        |     240|          |          | |SAKNR                         |CAUS|60320     | | |
+|     240|0GL_ACCOUNT                   |CAUS0000060330                  | 6| |     235|        |     241|          |          | |SAKNR                         |CAUS|60330     | | |
+|     241|0GL_ACCOUNT                   |CAUS0000062120                  | 6| |     235|        |     242|          |          | |SAKNR                         |CAUS|62120     | | |
+|     242|0GL_ACCOUNT                   |CAUS0000062130                  | 6| |     235|        |        |          |          | |SAKNR                         |CAUS|62130     | | |
+|     243|0HIER_NODE                    |CAUS2021200                     | 5| |     234|     244|        |          |          | |NODENAME                      |    |          | | |
+|     244|0GL_ACCOUNT                   |CAUS0000060220                  | 6| |     243|        |     245|          |          | |SAKNR                         |CAUS|60220     | | |
+|     245|0GL_ACCOUNT                   |CAUS0000060230                  | 6| |     243|        |     246|          |          | |SAKNR                         |CAUS|60230     | | |
+|     246|0GL_ACCOUNT                   |CAUS0000060420                  | 6| |     243|        |     247|          |          | |SAKNR                         |CAUS|60420     | | |
+|     247|0GL_ACCOUNT                   |CAUS0000060430                  | 6| |     243|        |     248|          |          | |SAKNR                         |CAUS|60430     | | |
+|     248|0GL_ACCOUNT                   |CAUS0000062220                  | 6| |     243|        |     249|          |          | |SAKNR                         |CAUS|62220     | | |
+|     249|0GL_ACCOUNT                   |CAUS0000062230                  | 6| |     243|        |        |          |          | |SAKNR                         |CAUS|62230     | | |
+|     250|0HIER_NODE                    |CAUS2022000                     | 4| |     233|     251|     261|          |          | |NODENAME                      |    |          | | |
+|     251|0HIER_NODE                    |CAUS2022100                     | 5| |     250|     252|     256|          |          | |NODENAME                      |    |          | | |
+|     252|0GL_ACCOUNT                   |CAUS0000164020                  | 6| |     251|        |     253|          |          | |SAKNR                         |CAUS|164020    | | |
+|     253|0GL_ACCOUNT                   |CAUS0000164030                  | 6| |     251|        |     254|          |          | |SAKNR                         |CAUS|164030    | | |
+|     254|0GL_ACCOUNT                   |CAUS0000165020                  | 6| |     251|        |     255|          |          | |SAKNR                         |CAUS|165020    | | |
+|     255|0GL_ACCOUNT                   |CAUS0000165030                  | 6| |     251|        |        |          |          | |SAKNR                         |CAUS|165030    | | |
+|     256|0HIER_NODE                    |CAUS2022200                     | 5| |     250|     257|        |          |          | |NODENAME                      |    |          | | |
+|     257|0GL_ACCOUNT                   |CAUS0000160020                  | 6| |     256|        |     258|          |          | |SAKNR                         |CAUS|160020    | | |
+|     258|0GL_ACCOUNT                   |CAUS0000160030                  | 6| |     256|        |     259|          |          | |SAKNR                         |CAUS|160030    | | |
+|     259|0GL_ACCOUNT                   |CAUS0000161020                  | 6| |     256|        |     260|          |          | |SAKNR                         |CAUS|161020    | | |
+|     260|0GL_ACCOUNT                   |CAUS0000161030                  | 6| |     256|        |        |          |          | |SAKNR                         |CAUS|161030    | | |
+|     261|0HIER_NODE                    |CAUS2024000                     | 4| |     233|     262|        |          |          | |NODENAME                      |    |          | | |
+|     262|0HIER_NODE                    |CAUS2024100                     | 5| |     261|     263|     265|          |          | |NODENAME                      |    |          | | |
+|     263|0GL_ACCOUNT                   |CAUS0000170020                  | 6| |     262|        |     264|          |          | |SAKNR                         |CAUS|170020    | | |
+|     264|0GL_ACCOUNT                   |CAUS0000170030                  | 6| |     262|        |        |          |          | |SAKNR                         |CAUS|170030    | | |
+|     265|0HIER_NODE                    |CAUS2024200                     | 5| |     261|     266|        |          |          | |NODENAME                      |    |          | | |
+|     266|0GL_ACCOUNT                   |CAUS0000078300                  | 6| |     265|        |     267|          |          | |SAKNR                         |CAUS|78300     | | |
+|     267|0GL_ACCOUNT                   |CAUS0000078310                  | 6| |     265|        |     268|          |          | |SAKNR                         |CAUS|78310     | | |
+|     268|0GL_ACCOUNT                   |CAUS0000176800                  | 6| |     265|        |     269|          |          | |SAKNR                         |CAUS|176800    | | |
+|     269|0GL_ACCOUNT                   |CAUS0000176900                  | 6| |     265|        |     270|          |          | |SAKNR                         |CAUS|176900    | | |
+|     270|0GL_ACCOUNT                   |CAUS0000178200                  | 6| |     265|        |     271|          |          | |SAKNR                         |CAUS|178200    | | |
+|     271|0GL_ACCOUNT                   |CAUS0000178300                  | 6| |     265|        |     272|          |          | |SAKNR                         |CAUS|178300    | | |
+|     272|0GL_ACCOUNT                   |CAUS0000179200                  | 6| |     265|        |        |          |          | |SAKNR                         |CAUS|179200    | | |
+|     273|0HIER_NODE                    |CAUS2030000                     | 3| |     162|     274|     277|          |          | |NODENAME                      |    |          | | |
+|     274|0GL_ACCOUNT                   |CAUS0000070000                  | 4| |     273|        |     275|          |          | |SAKNR                         |CAUS|70000     | | |
+|     275|0GL_ACCOUNT                   |CAUS0000071000                  | 4| |     273|        |     276|          |          | |SAKNR                         |CAUS|71000     | | |
+|     276|0GL_ACCOUNT                   |CAUS0000900000                  | 4| |     273|        |        |          |          | |SAKNR                         |CAUS|900000    | | |
+|     277|0HIER_NODE                    |CAUS2040000                     | 3| |     162|        |     278|          |          | |NODENAME                      |    |          | |1|
+|     278|0HIER_NODE                    |CAUS1                           | 3| |     162|        |        |          |          | |NODENAME                      |    |          | |2|
+|     279|0HIER_NODE                    |CAUS3000000                     | 2| |       1|     280|     426|          |          | |NODENAME                      |    |          | | |
+|     280|0HIER_NODE                    |CAUS3010000                     | 3| |     279|     281|     425|          |          | |NODENAME                      |    |          | | |
+|     281|0HIER_NODE                    |CAUS3011000                     | 4| |     280|     282|     420|          |          | |NODENAME                      |    |          | | |
+|     282|0HIER_NODE                    |CAUS3011010                     | 5| |     281|     283|     403|          |          | |NODENAME                      |    |          | | |
+|     283|0HIER_NODE                    |CAUS3011011                     | 6| |     282|     284|     359|          |          | |NODENAME                      |    |          | | |
+|     284|0HIER_NODE                    |CAUS30110111                    | 7| |     283|     285|     294|          |          | |NODENAME                      |    |          | | |
+|     285|0HIER_NODE                    |CAUS301101111                   | 8| |     284|     286|     288|          |          | |NODENAME                      |    |          | | |
+|     286|0GL_ACCOUNT                   |CAUS0000800000                  | 9| |     285|        |     287|          |          | |SAKNR                         |CAUS|800000    | | |
+|     287|0GL_ACCOUNT                   |CAUS0000808000                  | 9| |     285|        |        |          |          | |SAKNR                         |CAUS|808000    | | |
+|     288|0HIER_NODE                    |CAUS301101112                   | 8| |     284|     289|     290|          |          | |NODENAME                      |    |          | | |
+|     289|0GL_ACCOUNT                   |CAUS0000801000                  | 9| |     288|        |        |          |          | |SAKNR                         |CAUS|801000    | | |
+|     290|0HIER_NODE                    |CAUS301101113                   | 8| |     284|     291|        |          |          | |NODENAME                      |    |          | | |
+|     291|0GL_ACCOUNT                   |CAUS0000880000                  | 9| |     290|        |     292|          |          | |SAKNR                         |CAUS|880000    | | |
+|     292|0GL_ACCOUNT                   |CAUS0000881000                  | 9| |     290|        |     293|          |          | |SAKNR                         |CAUS|881000    | | |
+|     293|0GL_ACCOUNT                   |CAUS0000883000                  | 9| |     290|        |        |          |          | |SAKNR                         |CAUS|883000    | | |
+|     294|0HIER_NODE                    |CAUS30110112                    | 7| |     283|     295|        |          |          | |NODENAME                      |    |          | | |
+|     295|0HIER_NODE                    |CAUS301101121                   | 8| |     294|     296|     340|          |          | |NODENAME                      |    |          | | |
+|     296|0GL_ACCOUNT                   |CAUS0000231000                  | 9| |     295|        |     297|          |          | |SAKNR                         |CAUS|231000    | | |
+|     297|0GL_ACCOUNT                   |CAUS0000231100                  | 9| |     295|        |     298|          |          | |SAKNR                         |CAUS|231100    | | |
+|     298|0GL_ACCOUNT                   |CAUS0000231900                  | 9| |     295|        |     299|          |          | |SAKNR                         |CAUS|231900    | | |
+|     299|0GL_ACCOUNT                   |CAUS0000232000                  | 9| |     295|        |     300|          |          | |SAKNR                         |CAUS|232000    | | |
+|     300|0GL_ACCOUNT                   |CAUS0000233000                  | 9| |     295|        |     301|          |          | |SAKNR                         |CAUS|233000    | | |
+|     301|0GL_ACCOUNT                   |CAUS0000233010                  | 9| |     295|        |     302|          |          | |SAKNR                         |CAUS|233010    | | |
+|     302|0GL_ACCOUNT                   |CAUS0000234000                  | 9| |     295|        |     303|          |          | |SAKNR                         |CAUS|234000    | | |
+|     303|0GL_ACCOUNT                   |CAUS0000235000                  | 9| |     295|        |     304|          |          | |SAKNR                         |CAUS|235000    | | |
+|     304|0GL_ACCOUNT                   |CAUS0000236000                  | 9| |     295|        |     305|          |          | |SAKNR                         |CAUS|236000    | | |
+|     305|0GL_ACCOUNT                   |CAUS0000281000                  | 9| |     295|        |     306|          |          | |SAKNR                         |CAUS|281000    | | |
+|     306|0GL_ACCOUNT                   |CAUS0000281100                  | 9| |     295|        |     307|          |          | |SAKNR                         |CAUS|281100    | | |
+|     307|0GL_ACCOUNT                   |CAUS0000281900                  | 9| |     295|        |     308|          |          | |SAKNR                         |CAUS|281900    | | |
+|     308|0GL_ACCOUNT                   |CAUS0000282000                  | 9| |     295|        |     309|          |          | |SAKNR                         |CAUS|282000    | | |
+|     309|0GL_ACCOUNT                   |CAUS0000283000                  | 9| |     295|        |     310|          |          | |SAKNR                         |CAUS|283000    | | |
+|     310|0GL_ACCOUNT                   |CAUS0000283010                  | 9| |     295|        |     311|          |          | |SAKNR                         |CAUS|283010    | | |
+|     311|0GL_ACCOUNT                   |CAUS0000284000                  | 9| |     295|        |     312|          |          | |SAKNR                         |CAUS|284000    | | |
+|     312|0GL_ACCOUNT                   |CAUS0000285000                  | 9| |     295|        |     313|          |          | |SAKNR                         |CAUS|285000    | | |
+|     313|0GL_ACCOUNT                   |CAUS0000286000                  | 9| |     295|        |     314|          |          | |SAKNR                         |CAUS|286000    | | |
+|     314|0GL_ACCOUNT                   |CAUS0000400000                  | 9| |     295|        |     315|          |          | |SAKNR                         |CAUS|400000    | | |
+|     315|0GL_ACCOUNT                   |CAUS0000400001                  | 9| |     295|        |     316|          |          | |SAKNR                         |CAUS|400001    | | |
+|     316|0GL_ACCOUNT                   |CAUS0000400100                  | 9| |     295|        |     317|          |          | |SAKNR                         |CAUS|400100    | | |
+|     317|0GL_ACCOUNT                   |CAUS0000400200                  | 9| |     295|        |     318|          |          | |SAKNR                         |CAUS|400200    | | |
+|     318|0GL_ACCOUNT                   |CAUS0000400300                  | 9| |     295|        |     319|          |          | |SAKNR                         |CAUS|400300    | | |
+|     319|0GL_ACCOUNT                   |CAUS0000400400                  | 9| |     295|        |     320|          |          | |SAKNR                         |CAUS|400400    | | |
+|     320|0GL_ACCOUNT                   |CAUS0000400500                  | 9| |     295|        |     321|          |          | |SAKNR                         |CAUS|400500    | | |
+|     321|0GL_ACCOUNT                   |CAUS0000403000                  | 9| |     295|        |     322|          |          | |SAKNR                         |CAUS|403000    | | |
+|     322|0GL_ACCOUNT                   |CAUS0000404000                  | 9| |     295|        |     323|          |          | |SAKNR                         |CAUS|404000    | | |
+|     323|0GL_ACCOUNT                   |CAUS0000405000                  | 9| |     295|        |     324|          |          | |SAKNR                         |CAUS|405000    | | |
+|     324|0GL_ACCOUNT                   |CAUS0000405001                  | 9| |     295|        |     325|          |          | |SAKNR                         |CAUS|405001    | | |
+|     325|0GL_ACCOUNT                   |CAUS0000410000                  | 9| |     295|        |     326|          |          | |SAKNR                         |CAUS|410000    | | |
+|     326|0GL_ACCOUNT                   |CAUS0000410001                  | 9| |     295|        |     327|          |          | |SAKNR                         |CAUS|410001    | | |
+|     327|0GL_ACCOUNT                   |CAUS0000410200                  | 9| |     295|        |     328|          |          | |SAKNR                         |CAUS|410200    | | |
+|     328|0GL_ACCOUNT                   |CAUS0000410201                  | 9| |     295|        |     329|          |          | |SAKNR                         |CAUS|410201    | | |
+|     329|0GL_ACCOUNT                   |CAUS0000415000                  | 9| |     295|        |     330|          |          | |SAKNR                         |CAUS|415000    | | |
+|     330|0GL_ACCOUNT                   |CAUS0000419000                  | 9| |     295|        |     331|          |          | |SAKNR                         |CAUS|419000    | | |
+|     331|0GL_ACCOUNT                   |CAUS0000890000                  | 9| |     295|        |     332|          |          | |SAKNR                         |CAUS|890000    | | |
+|     332|0GL_ACCOUNT                   |CAUS0000890001                  | 9| |     295|        |     333|          |          | |SAKNR                         |CAUS|890001    | | |
+|     333|0GL_ACCOUNT                   |CAUS0000892000                  | 9| |     295|        |     334|          |          | |SAKNR                         |CAUS|892000    | | |
+|     334|0GL_ACCOUNT                   |CAUS0000893010                  | 9| |     295|        |     335|          |          | |SAKNR                         |CAUS|893010    | | |
+|     335|0GL_ACCOUNT                   |CAUS0000893020                  | 9| |     295|        |     336|          |          | |SAKNR                         |CAUS|893020    | | |
+|     336|0GL_ACCOUNT                   |CAUS0000894010                  | 9| |     295|        |     337|          |          | |SAKNR                         |CAUS|894010    | | |
+|     337|0GL_ACCOUNT                   |CAUS0000894020                  | 9| |     295|        |     338|          |          | |SAKNR                         |CAUS|894020    | | |
+|     338|0GL_ACCOUNT                   |CAUS0000895000                  | 9| |     295|        |     339|          |          | |SAKNR                         |CAUS|895000    | | |
+|     339|0GL_ACCOUNT                   |CAUS0000896000                  | 9| |     295|        |        |          |          | |SAKNR                         |CAUS|896000    | | |
+|     340|0HIER_NODE                    |CAUS301101122                   | 8| |     294|     341|     344|          |          | |NODENAME                      |    |          | | |
+|     341|0GL_ACCOUNT                   |CAUS0000420000                  | 9| |     340|        |     342|          |          | |SAKNR                         |CAUS|420000    | | |
+|     342|0GL_ACCOUNT                   |CAUS0000422000                  | 9| |     340|        |     343|          |          | |SAKNR                         |CAUS|422000    | | |
+|     343|0GL_ACCOUNT                   |CAUS0000434000                  | 9| |     340|        |        |          |          | |SAKNR                         |CAUS|434000    | | |
+|     344|0HIER_NODE                    |CAUS301101123                   | 8| |     294|     345|        |          |          | |NODENAME                      |    |          | | |
+|     345|0GL_ACCOUNT                   |CAUS0000211100                  | 9| |     344|        |     346|          |          | |SAKNR                         |CAUS|211100    | | |
+|     346|0GL_ACCOUNT                   |CAUS0000211200                  | 9| |     344|        |     347|          |          | |SAKNR                         |CAUS|211200    | | |
+|     347|0GL_ACCOUNT                   |CAUS0000404100                  | 9| |     344|        |     348|          |          | |SAKNR                         |CAUS|404100    | | |
+|     348|0GL_ACCOUNT                   |CAUS0000404200                  | 9| |     344|        |     349|          |          | |SAKNR                         |CAUS|404200    | | |
+|     349|0GL_ACCOUNT                   |CAUS0000416100                  | 9| |     344|        |     350|          |          | |SAKNR                         |CAUS|416100    | | |
+|     350|0GL_ACCOUNT                   |CAUS0000416200                  | 9| |     344|        |     351|          |          | |SAKNR                         |CAUS|416200    | | |
+|     351|0GL_ACCOUNT                   |CAUS0000416300                  | 9| |     344|        |     352|          |          | |SAKNR                         |CAUS|416300    | | |
+|     352|0GL_ACCOUNT                   |CAUS0000417000                  | 9| |     344|        |     353|          |          | |SAKNR                         |CAUS|417000    | | |
+|     353|0GL_ACCOUNT                   |CAUS0000421000                  | 9| |     344|        |     354|          |          | |SAKNR                         |CAUS|421000    | | |
+|     354|0GL_ACCOUNT                   |CAUS0000451000                  | 9| |     344|        |     355|          |          | |SAKNR                         |CAUS|451000    | | |
+|     355|0GL_ACCOUNT                   |CAUS0000452000                  | 9| |     344|        |     356|          |          | |SAKNR                         |CAUS|452000    | | |
+|     356|0GL_ACCOUNT                   |CAUS0000459000                  | 9| |     344|        |     357|          |          | |SAKNR                         |CAUS|459000    | | |
+|     357|0GL_ACCOUNT                   |CAUS0000470000                  | 9| |     344|        |     358|          |          | |SAKNR                         |CAUS|470000    | | |
+|     358|0GL_ACCOUNT                   |CAUS0000471000                  | 9| |     344|        |        |          |          | |SAKNR                         |CAUS|471000    | | |
+|     359|0HIER_NODE                    |CAUS3011012                     | 6| |     282|     360|        |          |          | |NODENAME                      |    |          | | |
+|     360|0HIER_NODE                    |CAUS30110121                    | 7| |     359|     361|     363|          |          | |NODENAME                      |    |          | | |
+|     361|0GL_ACCOUNT                   |CAUS0000472000                  | 8| |     360|        |     362|          |          | |SAKNR                         |CAUS|472000    | | |
+|     362|0GL_ACCOUNT                   |CAUS0000477000                  | 8| |     360|        |        |          |          | |SAKNR                         |CAUS|477000    | | |
+|     363|0HIER_NODE                    |CAUS30110122                    | 7| |     359|     364|     402|          |          | |NODENAME                      |    |          | | |
+|     364|0GL_ACCOUNT                   |CAUS0000055000                  | 8| |     363|        |     365|          |          | |SAKNR                         |CAUS|55000     | | |
+|     365|0GL_ACCOUNT                   |CAUS0000176300                  | 8| |     363|        |     366|          |          | |SAKNR                         |CAUS|176300    | | |
+|     366|0GL_ACCOUNT                   |CAUS0000200000                  | 8| |     363|        |     367|          |          | |SAKNR                         |CAUS|200000    | | |
+|     367|0GL_ACCOUNT                   |CAUS0000200010                  | 8| |     363|        |     368|          |          | |SAKNR                         |CAUS|200010    | | |
+|     368|0GL_ACCOUNT                   |CAUS0000210100                  | 8| |     363|        |     369|          |          | |SAKNR                         |CAUS|210100    | | |
+|     369|0GL_ACCOUNT                   |CAUS0000210200                  | 8| |     363|        |     370|          |          | |SAKNR                         |CAUS|210200    | | |
+|     370|0GL_ACCOUNT                   |CAUS0000212100                  | 8| |     363|        |     371|          |          | |SAKNR                         |CAUS|212100    | | |
+|     371|0GL_ACCOUNT                   |CAUS0000212200                  | 8| |     363|        |     372|          |          | |SAKNR                         |CAUS|212200    | | |
+|     372|0GL_ACCOUNT                   |CAUS0000213100                  | 8| |     363|        |     373|          |          | |SAKNR                         |CAUS|213100    | | |
+|     373|0GL_ACCOUNT                   |CAUS0000213200                  | 8| |     363|        |     374|          |          | |SAKNR                         |CAUS|213200    | | |
+|     374|0GL_ACCOUNT                   |CAUS0000215000                  | 8| |     363|        |     375|          |          | |SAKNR                         |CAUS|215000    | | |
+|     375|0GL_ACCOUNT                   |CAUS0000230000                  | 8| |     363|        |     376|          |          | |SAKNR                         |CAUS|230000    | | |
+|     376|0GL_ACCOUNT                   |CAUS0000230020                  | 8| |     363|        |     377|          |          | |SAKNR                         |CAUS|230020    | | |
+|     377|0GL_ACCOUNT                   |CAUS0000230100                  | 8| |     363|        |     378|          |          | |SAKNR                         |CAUS|230100    | | |
+|     378|0GL_ACCOUNT                   |CAUS0000260000                  | 8| |     363|        |     379|          |          | |SAKNR                         |CAUS|260000    | | |
+|     379|0GL_ACCOUNT                   |CAUS0000430000                  | 8| |     363|        |     380|          |          | |SAKNR                         |CAUS|430000    | | |
+|     380|0GL_ACCOUNT                   |CAUS0000431000                  | 8| |     363|        |     381|          |          | |SAKNR                         |CAUS|431000    | | |
+|     381|0GL_ACCOUNT                   |CAUS0000432000                  | 8| |     363|        |     382|          |          | |SAKNR                         |CAUS|432000    | | |
+|     382|0GL_ACCOUNT                   |CAUS0000435000                  | 8| |     363|        |     383|          |          | |SAKNR                         |CAUS|435000    | | |
+|     383|0GL_ACCOUNT                   |CAUS0000440000                  | 8| |     363|        |     384|          |          | |SAKNR                         |CAUS|440000    | | |
+|     384|0GL_ACCOUNT                   |CAUS0000445000                  | 8| |     363|        |     385|          |          | |SAKNR                         |CAUS|445000    | | |
+|     385|0GL_ACCOUNT                   |CAUS0000446000                  | 8| |     363|        |     386|          |          | |SAKNR                         |CAUS|446000    | | |
+|     386|0GL_ACCOUNT                   |CAUS0000447000                  | 8| |     363|        |     387|          |          | |SAKNR                         |CAUS|447000    | | |
+|     387|0GL_ACCOUNT                   |CAUS0000449000                  | 8| |     363|        |     388|          |          | |SAKNR                         |CAUS|449000    | | |
+|     388|0GL_ACCOUNT                   |CAUS0000466000                  | 8| |     363|        |     389|          |          | |SAKNR                         |CAUS|466000    | | |
+|     389|0GL_ACCOUNT                   |CAUS0000473000                  | 8| |     363|        |     390|          |          | |SAKNR                         |CAUS|473000    | | |
+|     390|0GL_ACCOUNT                   |CAUS0000473110                  | 8| |     363|        |     391|          |          | |SAKNR                         |CAUS|473110    | | |
+|     391|0GL_ACCOUNT                   |CAUS0000473120                  | 8| |     363|        |     392|          |          | |SAKNR                         |CAUS|473120    | | |
+|     392|0GL_ACCOUNT                   |CAUS0000474100                  | 8| |     363|        |     393|          |          | |SAKNR                         |CAUS|474100    | | |
+|     393|0GL_ACCOUNT                   |CAUS0000474210                  | 8| |     363|        |     394|          |          | |SAKNR                         |CAUS|474210    | | |
+|     394|0GL_ACCOUNT                   |CAUS0000474220                  | 8| |     363|        |     395|          |          | |SAKNR                         |CAUS|474220    | | |
+|     395|0GL_ACCOUNT                   |CAUS0000474230                  | 8| |     363|        |     396|          |          | |SAKNR                         |CAUS|474230    | | |
+|     396|0GL_ACCOUNT                   |CAUS0000475000                  | 8| |     363|        |     397|          |          | |SAKNR                         |CAUS|475000    | | |
+|     397|0GL_ACCOUNT                   |CAUS0000476000                  | 8| |     363|        |     398|          |          | |SAKNR                         |CAUS|476000    | | |
+|     398|0GL_ACCOUNT                   |CAUS0000476100                  | 8| |     363|        |     399|          |          | |SAKNR                         |CAUS|476100    | | |
+|     399|0GL_ACCOUNT                   |CAUS0000476500                  | 8| |     363|        |     400|          |          | |SAKNR                         |CAUS|476500    | | |
+|     400|0GL_ACCOUNT                   |CAUS0000476900                  | 8| |     363|        |     401|          |          | |SAKNR                         |CAUS|476900    | | |
+|     401|0GL_ACCOUNT                   |CAUS0000479000                  | 8| |     363|        |        |          |          | |SAKNR                         |CAUS|479000    | | |
+|     402|0HIER_NODE                    |CAUS30110123                    | 7| |     359|        |        |          |          | |NODENAME                      |    |          | | |
+|     403|0HIER_NODE                    |CAUS3011020                     | 5| |     281|     404|        |          |          | |NODENAME                      |    |          | | |
+|     404|0HIER_NODE                    |CAUS3011021                     | 6| |     403|     405|     415|          |          | |NODENAME                      |    |          | | |
+|     405|0GL_ACCOUNT                   |CAUS0000251000                  | 7| |     404|        |     406|          |          | |SAKNR                         |CAUS|251000    | | |
+|     406|0GL_ACCOUNT                   |CAUS0000270100                  | 7| |     404|        |     407|          |          | |SAKNR                         |CAUS|270100    | | |
+|     407|0GL_ACCOUNT                   |CAUS0000270200                  | 7| |     404|        |     408|          |          | |SAKNR                         |CAUS|270200    | | |
+|     408|0GL_ACCOUNT                   |CAUS0000271100                  | 7| |     404|        |     409|          |          | |SAKNR                         |CAUS|271100    | | |
+|     409|0GL_ACCOUNT                   |CAUS0000271200                  | 7| |     404|        |     410|          |          | |SAKNR                         |CAUS|271200    | | |
+|     410|0GL_ACCOUNT                   |CAUS0000272100                  | 7| |     404|        |     411|          |          | |SAKNR                         |CAUS|272100    | | |
+|     411|0GL_ACCOUNT                   |CAUS0000272200                  | 7| |     404|        |     412|          |          | |SAKNR                         |CAUS|272200    | | |
+|     412|0GL_ACCOUNT                   |CAUS0000273100                  | 7| |     404|        |     413|          |          | |SAKNR                         |CAUS|273100    | | |
+|     413|0GL_ACCOUNT                   |CAUS0000273200                  | 7| |     404|        |     414|          |          | |SAKNR                         |CAUS|273200    | | |
+|     414|0GL_ACCOUNT                   |CAUS0000807000                  | 7| |     404|        |        |          |          | |SAKNR                         |CAUS|807000    | | |
+|     415|0HIER_NODE                    |CAUS3011022                     | 6| |     403|     416|        |          |          | |NODENAME                      |    |          | | |
+|     416|0GL_ACCOUNT                   |CAUS0000201000                  | 7| |     415|        |     417|          |          | |SAKNR                         |CAUS|201000    | | |
+|     417|0GL_ACCOUNT                   |CAUS0000220000                  | 7| |     415|        |     418|          |          | |SAKNR                         |CAUS|220000    | | |
+|     418|0GL_ACCOUNT                   |CAUS0000220100                  | 7| |     415|        |     419|          |          | |SAKNR                         |CAUS|220100    | | |
+|     419|0GL_ACCOUNT                   |CAUS0000476005                  | 7| |     415|        |        |          |          | |SAKNR                         |CAUS|476005    | | |
+|     420|0HIER_NODE                    |CAUS3012000                     | 4| |     280|     421|        |          |          | |NODENAME                      |    |          | | |
+|     421|0GL_ACCOUNT                   |CAUS0000240000                  | 5| |     420|        |     422|          |          | |SAKNR                         |CAUS|240000    | | |
+|     422|0GL_ACCOUNT                   |CAUS0000241000                  | 5| |     420|        |     423|          |          | |SAKNR                         |CAUS|241000    | | |
+|     423|0GL_ACCOUNT                   |CAUS0000249000                  | 5| |     420|        |     424|          |          | |SAKNR                         |CAUS|249000    | | |
+|     424|0GL_ACCOUNT                   |CAUS0000465000                  | 5| |     420|        |        |          |          | |SAKNR                         |CAUS|465000    | | |
+|     425|0HIER_NODE                    |CAUS3020000                     | 3| |     279|        |        |          |          | |NODENAME                      |    |          | | |
+|     426|0HIER_NODE                    |CAUS4000000                     | 2| |       1|        |     427|          |          | |NODENAME                      |    |          | | |
+|     427|0HIER_NODE                    |CAUS2                           | 2| |       1|        |        |          |          | |NODENAME                      |    |          | | |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

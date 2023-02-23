@@ -1,0 +1,98 @@
+-----------------------------------------------------
+| DataSource          0GL_ACCOUNT_T011_HIER         |
+| Struktur            ROSFOLDERT                    |
+-----------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|La|InfoObject(IOBJNM)            |Node name(NODENAME)             |Descript.(TXTSH)    |Descript.(TXTMD)                        |Descript.(TXTLG)                                            |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|EN|0HIER_NODE                    |CAUS                            |Commercial balance s|Commercial balance sheet USA            |Commercial balance sheet USA                                |
+|EN|0HIER_NODE                    |CAUS1000000                     |Assets              |Assets                                  |Assets                                                      |
+|EN|0HIER_NODE                    |CAUS1010000                     |Current Assets      |Current Assets                          |Current Assets                                              |
+|EN|0HIER_NODE                    |CAUS1011000                     |cash                |cash                                    |cash                                                        |
+|EN|0HIER_NODE                    |CAUS1011100                     |Petty Cash          |Petty Cash                              |Petty Cash                                                  |
+|EN|0HIER_NODE                    |CAUS1011200                     |Cheque Account      |Cheque Account                          |Cheque Account                                              |
+|EN|0HIER_NODE                    |CAUS1011300                     |Bank 1              |Bank 1                                  |Bank 1                                                      |
+|EN|0HIER_NODE                    |CAUS1011400                     |Bank 2              |Bank 2                                  |Bank 2                                                      |
+|EN|0HIER_NODE                    |CAUS1011500                     |Bank 3              |Bank 3                                  |Bank 3                                                      |
+|EN|0HIER_NODE                    |CAUS1011600                     |bank 4              |bank 4                                  |bank 4                                                      |
+|EN|0HIER_NODE                    |CAUS1012000                     |marketable securitie|marketable securities                   |marketable securities                                       |
+|EN|0HIER_NODE                    |CAUS1012100                     |Stocks & Bonds      |Stocks & Bonds                          |Stocks & Bonds                                              |
+|EN|0HIER_NODE                    |CAUS1012200                     |trade investments   |trade investments                       |trade investments                                           |
+|EN|0HIER_NODE                    |CAUS1013000                     |accounts receivable |accounts receivable                     |accounts receivable                                         |
+|EN|0HIER_NODE                    |CAUS1013100                     |Accounts receiveble-|Accounts receiveble-short term          |Accounts receiveble-short term                              |
+|EN|0HIER_NODE                    |CAUS1013200                     |trade receivables-sh|trade receivables-short term            |trade receivables-short term                                |
+|EN|0HIER_NODE                    |CAUS1013300                     |less allowance for d|less allowance for doubt debt           |less allowance for doubt debt                               |
+|EN|0HIER_NODE                    |CAUS1015000                     |inventory           |inventory                               |inventory                                                   |
+|EN|0HIER_NODE                    |CAUS1015100                     |raw materials       |raw materials                           |raw materials                                               |
+|EN|0HIER_NODE                    |CAUS1016000                     |other current assets|other current assets                    |other current assets                                        |
+|EN|0HIER_NODE                    |CAUS1020000                     |long term assets    |long term assets                        |long term assets                                            |
+|EN|0HIER_NODE                    |CAUS1021000                     |property, plant and |property, plant and equipment           |property, plant and equipment                               |
+|EN|0HIER_NODE                    |CAUS1021100                     |Fixed Assets        |Fixed Assets                            |Fixed Assets                                                |
+|EN|0HIER_NODE                    |CAUS1021200                     |less accumulated dep|less accumulated depr                   |less accumulated depr                                       |
+|EN|0HIER_NODE                    |CAUS1022000                     |investments         |investments                             |investments                                                 |
+|EN|0HIER_NODE                    |CAUS1022100                     |investments in subsi|investments in subsidiaries             |investments in subsidiaries                                 |
+|EN|0HIER_NODE                    |CAUS1022200                     |investments in affil|investments in affiliaties              |investments in affiliaties                                  |
+|EN|0HIER_NODE                    |CAUS1023000                     |other long term asse|other long term assets                  |other long term assets                                      |
+|EN|0HIER_NODE                    |CAUS1023100                     |accounts receivable |accounts receivable - long ter          |accounts receivable - long ter                              |
+|EN|0HIER_NODE                    |CAUS1023200                     |intangible assets   |intangible assets                       |intangible assets                                           |
+|EN|0HIER_NODE                    |CAUS1023300                     |less : amortisation |less : amortisation                     |less : amortisation                                         |
+|EN|0HIER_NODE                    |CAUS1052000                     |work in process     |work in process                         |work in process                                             |
+|EN|0HIER_NODE                    |CAUS1053000                     |Finished goods      |Finished goods                          |Finished goods                                              |
+|EN|0HIER_NODE                    |CAUS1054000                     |sundry materials    |sundry materials                        |sundry materials                                            |
+|EN|0HIER_NODE                    |CAUS1055000                     |consumables         |consumables                             |consumables                                                 |
+|EN|0HIER_NODE                    |CAUS1056000                     |paking materials    |paking materials                        |paking materials                                            |
+|EN|0HIER_NODE                    |CAUS1061000                     |other receivables   |other receivables                       |other receivables                                           |
+|EN|0HIER_NODE                    |CAUS1063000                     |intercompany loans  |intercompany loans                      |intercompany loans                                          |
+|EN|0HIER_NODE                    |CAUS1064000                     |prepayments         |prepayments                             |prepayments                                                 |
+|EN|0HIER_NODE                    |CAUS2000000                     |Liabilities         |Liabilities                             |Liabilities                                                 |
+|EN|0HIER_NODE                    |CAUS2010000                     |current liabilities |current liabilities                     |current liabilities                                         |
+|EN|0HIER_NODE                    |CAUS2011000                     |short term borrowing|short term borrowing                    |short term borrowing                                        |
+|EN|0HIER_NODE                    |CAUS2011100                     |secured short-term b|secured short-term borrowing            |secured short-term borrowing                                |
+|EN|0HIER_NODE                    |CAUS2011200                     |unsecured short term|unsecured short term borrowing          |unsecured short term borrowing                              |
+|EN|0HIER_NODE                    |CAUS2012000                     |accounts payable    |accounts payable                        |accounts payable                                            |
+|EN|0HIER_NODE                    |CAUS2012100                     |accounts payable-sho|accounts payable-short term             |accounts payable-short term                                 |
+|EN|0HIER_NODE                    |CAUS2012200                     |trade accounts payab|trade accounts payable                  |trade accounts payable                                      |
+|EN|0HIER_NODE                    |CAUS2014000                     |taxes payable       |taxes payable                           |taxes payable                                               |
+|EN|0HIER_NODE                    |CAUS2014100                     |sales tax payable   |sales tax payable                       |sales tax payable                                           |
+|EN|0HIER_NODE                    |CAUS2014200                     |other taxes payable |other taxes payable                     |other taxes payable                                         |
+|EN|0HIER_NODE                    |CAUS2015000                     |other current liabil|other current liabilities               |other current liabilities                                   |
+|EN|0HIER_NODE                    |CAUS2015100                     |salaries and wages p|salaries and wages payable              |salaries and wages payable                                  |
+|EN|0HIER_NODE                    |CAUS2015200                     |social security paya|social security payable                 |social security payable                                     |
+|EN|0HIER_NODE                    |CAUS2015300                     |other liabilities   |other liabilities                       |other liabilities                                           |
+|EN|0HIER_NODE                    |CAUS2015400                     |advances from custom|advances from customers                 |advances from customers                                     |
+|EN|0HIER_NODE                    |CAUS2020000                     |long term liabilitie|long term liabilities                   |long term liabilities                                       |
+|EN|0HIER_NODE                    |CAUS2021000                     |long-term borrowing |long-term borrowing                     |long-term borrowing                                         |
+|EN|0HIER_NODE                    |CAUS2021100                     |secured long-term bo|secured long-term borrowing             |secured long-term borrowing                                 |
+|EN|0HIER_NODE                    |CAUS2021200                     |unsecured long-term |unsecured long-term borrowing           |unsecured long-term borrowing                               |
+|EN|0HIER_NODE                    |CAUS2022000                     |accounts payable    |accounts payable                        |accounts payable                                            |
+|EN|0HIER_NODE                    |CAUS2022100                     |accounts payable-lon|accounts payable-long term              |accounts payable-long term                                  |
+|EN|0HIER_NODE                    |CAUS2022200                     |trade accts payable-|trade accts payable-long term           |trade accts payable-long term                               |
+|EN|0HIER_NODE                    |CAUS2024000                     |other long-term liab|other long-term liabilities             |other long-term liabilities                                 |
+|EN|0HIER_NODE                    |CAUS2024100                     |advanced customer pa|advanced customer payments              |advanced customer payments                                  |
+|EN|0HIER_NODE                    |CAUS2024200                     |tax & other long-ter|tax & other long-term liabil            |tax & other long-term liabil                                |
+|EN|0HIER_NODE                    |CAUS2030000                     |shareholders equity |shareholders equity                     |shareholders equity                                         |
+|EN|0HIER_NODE                    |CAUS2040000                     |profit for the perio|profit for the period(dummy)            |profit for the period(dummy)                                |
+|EN|0HIER_NODE                    |CAUS3000000                     |Profit & Loss Statem|Profit & Loss Statement                 |Profit & Loss Statement                                     |
+|EN|0HIER_NODE                    |CAUS3010000                     |net profit after tax|net profit after tax                    |net profit after tax                                        |
+|EN|0HIER_NODE                    |CAUS3011000                     |Income before taxes |Income before taxes                     |Income before taxes                                         |
+|EN|0HIER_NODE                    |CAUS3011010                     |operating Profit    |operating Profit                        |operating Profit                                            |
+|EN|0HIER_NODE                    |CAUS3011011                     |gross margin        |gross margin                            |gross margin                                                |
+|EN|0HIER_NODE                    |CAUS30110111                    |sales               |sales                                   |sales                                                       |
+|EN|0HIER_NODE                    |CAUS301101111                   |Domestic sales      |Domestic sales                          |Domestic sales                                              |
+|EN|0HIER_NODE                    |CAUS301101112                   |foreign sales       |foreign sales                           |foreign sales                                               |
+|EN|0HIER_NODE                    |CAUS301101113                   |sales discounts and |sales discounts and deductions          |sales discounts and deductions                              |
+|EN|0HIER_NODE                    |CAUS30110112                    |COGS                |COGS                                    |COGS                                                        |
+|EN|0HIER_NODE                    |CAUS301101121                   |Material expenses   |Material expenses                       |Material expenses                                           |
+|EN|0HIER_NODE                    |CAUS301101122                   |Labour expenses     |Labour expenses                         |Labour expenses                                             |
+|EN|0HIER_NODE                    |CAUS301101123                   |overhead expenses   |overhead expenses                       |overhead expenses                                           |
+|EN|0HIER_NODE                    |CAUS3011012                     |Operating expenses  |Operating expenses                      |Operating expenses                                          |
+|EN|0HIER_NODE                    |CAUS30110121                    |selling expenses    |selling expenses                        |selling expenses                                            |
+|EN|0HIER_NODE                    |CAUS30110122                    |general and admin ex|general and admin expenses              |general and admin expenses                                  |
+|EN|0HIER_NODE                    |CAUS30110123                    |depreciation and amo|depreciation and amort expense          |depreciation and amort expense                              |
+|EN|0HIER_NODE                    |CAUS3011020                     |non-operating result|non-operating result                    |non-operating result                                        |
+|EN|0HIER_NODE                    |CAUS3011021                     |non-operating income|non-operating income                    |non-operating income                                        |
+|EN|0HIER_NODE                    |CAUS3011022                     |non-operating expens|non-operating expenses                  |non-operating expenses                                      |
+|EN|0HIER_NODE                    |CAUS3012000                     |taxes               |taxes                                   |taxes                                                       |
+|EN|0HIER_NODE                    |CAUS3020000                     |calculated profit li|calculated profit line                  |calculated profit line                                      |
+|EN|0HIER_NODE                    |CAUS4000000                     |Accounts not assigne|Accounts not assigned                   |Accounts not assigned                                       |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

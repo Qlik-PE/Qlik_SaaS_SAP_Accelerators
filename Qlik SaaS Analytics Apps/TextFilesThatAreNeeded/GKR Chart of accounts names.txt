@@ -1,0 +1,275 @@
+-----------------------------------------------------
+| DataSource          0GL_ACCOUNT_T011_HIER         |
+| Struktur            ROSFOLDERT                    |
+-----------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|La|InfoObject(IOBJNM)            |Node name(NODENAME)             |Descript.(TXTSH)    |Descript.(TXTMD)                        |Descript.(TXTLG)                                            |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|EN|0HIER_NODE                    |GKR                             |Commercial balance s|Commercial balance sheet (Germany)      |Commercial balance sheet (Germany)                          |
+|EN|0HIER_NODE                    |GKR 1000000                     |A K T I V A         |A K T I V A                             |A K T I V A                                                 |
+|EN|0HIER_NODE                    |GKR 1010000                     |Ausstehende Kapital-|Ausstehende Kapital-Einlagen            |Ausstehende Kapital-Einlagen                                |
+|EN|0HIER_NODE                    |GKR 1011000                     |Eingefordert        |Eingefordert                            |Eingefordert                                                |
+|EN|0HIER_NODE                    |GKR 1012000                     |Nicht eingefordert  |Nicht eingefordert                      |Nicht eingefordert                                          |
+|EN|0HIER_NODE                    |GKR 1020000                     |Aufwendungen fuer di|Aufwendungen fuer die Ingangsetzung und |Aufwendungen fuer die Ingangsetzung und                     |
+|EN|0HIER_NODE                    |GKR 1021000                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                                            |
+|EN|0HIER_NODE                    |GKR 1022000                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1030000                     |Anlagevermoegen     |Anlagevermoegen                         |Anlagevermoegen                                             |
+|EN|0HIER_NODE                    |GKR 1031000                     |Immaterielle Vermoeg|Immaterielle Vermoegens-Gegenstaende    |Immaterielle Vermoegens-Gegenstaende                        |
+|EN|0HIER_NODE                    |GKR 1031010                     |Konzessionen, gewerb|Konzessionen, gewerbliche Schutzrechte  |Konzessionen, gewerbliche Schutzrechte                      |
+|EN|0HIER_NODE                    |GKR 1031011                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                                            |
+|EN|0HIER_NODE                    |GKR 1031012                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1031020                     |Geschaefts- oder Fir|Geschaefts- oder Firmen-Wert            |Geschaefts- oder Firmen-Wert                                |
+|EN|0HIER_NODE                    |GKR 1031021                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                                            |
+|EN|0HIER_NODE                    |GKR 1031022                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1031030                     |Geleiste Anzahlungen|Geleiste Anzahlungen                    |Geleiste Anzahlungen                                        |
+|EN|0HIER_NODE                    |GKR 1031031                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                                            |
+|EN|0HIER_NODE                    |GKR 1031032                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1032000                     |Sachanlagen         |Sachanlagen                             |Sachanlagen                                                 |
+|EN|0HIER_NODE                    |GKR 1032010                     |Grundstuecke, grunds|Grundstuecke, grundstuecksgleiche Rechte|Grundstuecke, grundstuecksgleiche Rechte und                |
+|EN|0HIER_NODE                    |GKR 1032011                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                         0500               |
+|EN|0HIER_NODE                    |GKR 1032012                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1032020                     |Technische Anlagen u|Technische Anlagen und Maschinen        |Technische Anlagen und Maschinen                            |
+|EN|0HIER_NODE                    |GKR 1032021                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                         1000               |
+|EN|0HIER_NODE                    |GKR 1032022                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1032030                     |Andere Anlagen sowie|Andere Anlagen sowie                    |Andere Anlagen sowie                                        |
+|EN|0HIER_NODE                    |GKR 1032031                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                         2000               |
+|EN|0HIER_NODE                    |GKR 1032032                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1032040                     |Geleistete Anzahlung|Geleistete Anzahlungen und              |Geleistete Anzahlungen und                                  |
+|EN|0HIER_NODE                    |GKR 1032041                     |Anschaffungswert    |Anschaffungswert                        |Anschaffungswert                         3000               |
+|EN|0HIER_NODE                    |GKR 1032042                     |Wertberichtigung    |Wertberichtigung                        |Wertberichtigung                                            |
+|EN|0HIER_NODE                    |GKR 1033000                     |Finanzanlagen       |Finanzanlagen                           |Finanzanlagen                                               |
+|EN|0HIER_NODE                    |GKR 1033010                     |Anteile an verbunden|Anteile an verbundenen Unternehmen      |Anteile an verbundenen Unternehmen                          |
+|EN|0HIER_NODE                    |GKR 1033020                     |Ausleihungen an verb|Ausleihungen an verbundene Unternehmen  |Ausleihungen an verbundene Unternehmen                      |
+|EN|0HIER_NODE                    |GKR 1033021                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 1033022                     |mit einer Restlaufze|mit einer Restlaufzeit ueber einem Jahr |mit einer Restlaufzeit ueber einem Jahr                     |
+|EN|0HIER_NODE                    |GKR 1033030                     |Beteiligungen       |Beteiligungen                           |Beteiligungen                                               |
+|EN|0HIER_NODE                    |GKR 1033040                     |Ausleihungen an Unte|Ausleihungen an Unternehmen, mit denen e|Ausleihungen an Unternehmen, mit denen ein                  |
+|EN|0HIER_NODE                    |GKR 1033041                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 1033042                     |mit einer Restlaufze|mit einer Restlaufzeit ueber einem Jahr |mit einer Restlaufzeit ueber einem Jahr                     |
+|EN|0HIER_NODE                    |GKR 1033050                     |Wertpapiere des Anla|Wertpapiere des Anlagevermoegens        |Wertpapiere des Anlagevermoegens                            |
+|EN|0HIER_NODE                    |GKR 1033060                     |Sonstige Ausleihunge|Sonstige Ausleihungen                   |Sonstige Ausleihungen                                       |
+|EN|0HIER_NODE                    |GKR 1033061                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 1033062                     |mit einer Restlaufze|mit einer Restlaufzeit ueber einem Jahr |mit einer Restlaufzeit ueber einem Jahr                     |
+|EN|0HIER_NODE                    |GKR 1040000                     |Umlaufvermoegen     |Umlaufvermoegen                         |Umlaufvermoegen                                             |
+|EN|0HIER_NODE                    |GKR 1041000                     |Vorraete            |Vorraete                                |Vorraete                                                    |
+|EN|0HIER_NODE                    |GKR 1041010                     |Roh-, Hilfs- und Bet|Roh-, Hilfs- und Betriebsstoffe         |Roh-, Hilfs- und Betriebsstoffe                             |
+|EN|0HIER_NODE                    |GKR 1041020                     |Unfertige Erzeugniss|Unfertige Erzeugnisse, unfertige Leistun|Unfertige Erzeugnisse, unfertige Leistungen                 |
+|EN|0HIER_NODE                    |GKR 1041030                     |Fertige Erzeugnisse |Fertige Erzeugnisse und Waren           |Fertige Erzeugnisse und Waren                               |
+|EN|0HIER_NODE                    |GKR 1041040                     |Geleistete Anzahlung|Geleistete Anzahlungen fuer Vorraete    |Geleistete Anzahlungen fuer Vorraete                        |
+|EN|0HIER_NODE                    |GKR 1042000                     |Forderungen und     |Forderungen und                         |Forderungen und                                             |
+|EN|0HIER_NODE                    |GKR 1042010                     |Forderungen aus Lief|Forderungen aus Lieferungen und         |Forderungen aus Lieferungen und                             |
+|EN|0HIER_NODE                    |GKR 1042011                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 1042012                     |mit einer Restlaufze|mit einer Restlaufzeit ueber einem Jahr |mit einer Restlaufzeit ueber einem Jahr                     |
+|EN|0HIER_NODE                    |GKR 1042020                     |Forderungen aus Lief|Forderungen aus Lieferungen und         |Forderungen aus Lieferungen und                             |
+|EN|0HIER_NODE                    |GKR 1042021                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 1042021/12                  |Ford. BK 02         |Ford. BK 02                             |Ford. BK 02                                                 |
+|EN|0HIER_NODE                    |GKR 1042021/13                  |Ford. BK 01         |Ford. BK 01                             |Ford. BK 01                                                 |
+|EN|0HIER_NODE                    |GKR 1042022                     |mit einer Restlaufze|mit einer Restlaufzeit ueber einem Jahr |mit einer Restlaufzeit ueber einem Jahr                     |
+|EN|0HIER_NODE                    |GKR 1042030                     |Forderungen gegen Un|Forderungen gegen Unternehmen, mit denen|Forderungen gegen Unternehmen, mit denen ein                |
+|EN|0HIER_NODE                    |GKR 1042031                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 1042032                     |mit einer Restlaufze|mit einer Restlaufzeit ueber einem Jahr |mit einer Restlaufzeit ueber einem Jahr                     |
+|EN|0HIER_NODE                    |GKR 1042040                     |Sonstige Vermoegens-|Sonstige Vermoegens-Gegenstaende        |Sonstige Vermoegens-Gegenstaende                            |
+|EN|0HIER_NODE                    |GKR 1042041                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 1042041/00                  |sonstige Forderungen|sonstige Forderungen                    |sonstige Forderungen                                        |
+|EN|0HIER_NODE                    |GKR 1042041/10                  |Ford. Umsatzsteuer  |Ford. Umsatzsteuer                      |Ford. Umsatzsteuer                                          |
+|EN|0HIER_NODE                    |GKR 1042042                     |mit einer Restlaufze|mit einer Restlaufzeit ueber einem Jahr |mit einer Restlaufzeit ueber einem Jahr                     |
+|EN|0HIER_NODE                    |GKR 1043000                     |Wertpapiere         |Wertpapiere                             |Wertpapiere                                                 |
+|EN|0HIER_NODE                    |GKR 1043010                     |Anteile an verbunden|Anteile an verbundenen Unternehmen      |Anteile an verbundenen Unternehmen                          |
+|EN|0HIER_NODE                    |GKR 1043020                     |Eigene Anteile      |Eigene Anteile                          |Eigene Anteile                                              |
+|EN|0HIER_NODE                    |GKR 1043030                     |Sonstige Wertpapiere|Sonstige Wertpapiere                    |Sonstige Wertpapiere                                        |
+|EN|0HIER_NODE                    |GKR 1044000                     |Schecks, Kassenbesta|Schecks, Kassenbestand, Bundesbank- und |Schecks, Kassenbestand, Bundesbank- und Post-               |
+|EN|0HIER_NODE                    |GKR 1044000/00                  |Sonstige            |Sonstige                                |Sonstige                                                    |
+|EN|0HIER_NODE                    |GKR 1044000/21                  |Postgiro            |Postgiro                                |Postgiro                                                    |
+|EN|0HIER_NODE                    |GKR 1044000/22                  |DB                  |DB                                      |DB                                                          |
+|EN|0HIER_NODE                    |GKR 1044000/23                  |Dre. Bank           |Dre. Bank                               |Dre. Bank                                                   |
+|EN|0HIER_NODE                    |GKR 1050000                     |Abgrenzungs-Posten f|Abgrenzungs-Posten fuer kuenftige       |Abgrenzungs-Posten fuer kuenftige                           |
+|EN|0HIER_NODE                    |GKR 1060000                     |Rechnungs-Abgrenzung|Rechnungs-Abgrenzungsposten             |Rechnungs-Abgrenzungsposten                                 |
+|EN|0HIER_NODE                    |GKR 1061000                     |Disagio             |Disagio                                 |Disagio                                                     |
+|EN|0HIER_NODE                    |GKR 1062000                     |Sonstige Rechnungs-A|Sonstige Rechnungs-Abgrenzungsposten    |Sonstige Rechnungs-Abgrenzungsposten                        |
+|EN|0HIER_NODE                    |GKR 1070000                     |Nicht durch Eigenkap|Nicht durch Eigenkapital gedeckter Fehlb|Nicht durch Eigenkapital gedeckter Fehlbetrag               |
+|EN|0HIER_NODE                    |GKR 2000000                     |P A S S I V A       |P A S S I V A                           |P A S S I V A                                               |
+|EN|0HIER_NODE                    |GKR 2010000                     |Eigenkapital        |Eigenkapital                            |Eigenkapital                                                |
+|EN|0HIER_NODE                    |GKR 2011000                     |Gezeichnetes Kapital|Gezeichnetes Kapital                    |Gezeichnetes Kapital                                        |
+|EN|0HIER_NODE                    |GKR 2012000                     |Kapital-Ruecklage   |Kapital-Ruecklage                       |Kapital-Ruecklage                                           |
+|EN|0HIER_NODE                    |GKR 2013000                     |Gewinn-Ruecklagen   |Gewinn-Ruecklagen                       |Gewinn-Ruecklagen                                           |
+|EN|0HIER_NODE                    |GKR 2013010                     |Gesetzliche Ruecklag|Gesetzliche Ruecklage                   |Gesetzliche Ruecklage                                       |
+|EN|0HIER_NODE                    |GKR 2013020                     |Ruecklage fuer eigen|Ruecklage fuer eigene Anteile           |Ruecklage fuer eigene Anteile                               |
+|EN|0HIER_NODE                    |GKR 2013030                     |Satzungsmaessige Rue|Satzungsmaessige Ruecklagen             |Satzungsmaessige Ruecklagen                                 |
+|EN|0HIER_NODE                    |GKR 2013040                     |Andere Gewinn-Rueckl|Andere Gewinn-Ruecklagen                |Andere Gewinn-Ruecklagen                                    |
+|EN|0HIER_NODE                    |GKR 2014000                     |DummyKnoten         |DummyKnoten                             |DummyKnoten                                                 |
+|EN|0HIER_NODE                    |GKR 2015000                     |Umgliederung des nic|Umgliederung des nicht durch Eigenkapita|Umgliederung des nicht durch Eigenkapital                   |
+|EN|0HIER_NODE                    |GKR 2020000                     |Sonderposten mit Rue|Sonderposten mit Ruecklage-Anteil       |Sonderposten mit Ruecklage-Anteil                           |
+|EN|0HIER_NODE                    |GKR 2021000                     |Steuerliche Sonder-A|Steuerliche Sonder-AfA (Unterschieds-Bet|Steuerliche Sonder-AfA (Unterschieds-Betrag)                |
+|EN|0HIER_NODE                    |GKR 2022000                     |Sonderposten mit Rue|Sonderposten mit Ruecklage-Anteil       |Sonderposten mit Ruecklage-Anteil                           |
+|EN|0HIER_NODE                    |GKR 2030000                     |Rueckstellungen     |Rueckstellungen                         |Rueckstellungen                                             |
+|EN|0HIER_NODE                    |GKR 2031000                     |Rueckstellungen fuer|Rueckstellungen fuer Pensionen und      |Rueckstellungen fuer Pensionen und                          |
+|EN|0HIER_NODE                    |GKR 2032000                     |Rueckstellungen fuer|Rueckstellungen fuer latente Steuern    |Rueckstellungen fuer latente Steuern                        |
+|EN|0HIER_NODE                    |GKR 2033000                     |Steuer-Rueckstellung|Steuer-Rueckstellungen                  |Steuer-Rueckstellungen                                      |
+|EN|0HIER_NODE                    |GKR 2034000                     |Sonstige Rueckstellu|Sonstige Rueckstellungen                |Sonstige Rueckstellungen                                    |
+|EN|0HIER_NODE                    |GKR 2040000                     |Verbindlichkeiten   |Verbindlichkeiten                       |Verbindlichkeiten                                           |
+|EN|0HIER_NODE                    |GKR 2041000                     |Anleihen            |Anleihen                                |Anleihen                                                    |
+|EN|0HIER_NODE                    |GKR 2041010                     |Konvertible Anleihen|Konvertible Anleihen                    |Konvertible Anleihen                                        |
+|EN|0HIER_NODE                    |GKR 2041011                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2041012                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2041013                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2041020                     |Nicht konvertible An|Nicht konvertible Anleihen              |Nicht konvertible Anleihen                                  |
+|EN|0HIER_NODE                    |GKR 2041021                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2041022                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2041023                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2042000                     |Verbindlichkeiten ge|Verbindlichkeiten gegenueber Kreditinsti|Verbindlichkeiten gegenueber Kreditinstituten               |
+|EN|0HIER_NODE                    |GKR 2042010                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2042010/00                  |Sonstige            |Sonstige                                |Sonstige                                                    |
+|EN|0HIER_NODE                    |GKR 2042010/21                  |Postgiro            |Postgiro                                |Postgiro                                                    |
+|EN|0HIER_NODE                    |GKR 2042010/22                  |DB                  |DB                                      |DB                                                          |
+|EN|0HIER_NODE                    |GKR 2042010/23                  |Dre. Bank           |Dre. Bank                               |Dre. Bank                                                   |
+|EN|0HIER_NODE                    |GKR 2042020                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2042030                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2043000                     |Erhaltene Anzahlunge|Erhaltene Anzahlungen auf Bestellungen  |Erhaltene Anzahlungen auf Bestellungen                      |
+|EN|0HIER_NODE                    |GKR 2043010                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2043020                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2043030                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2044000                     |Verbindlichkeiten au|Verbindlichkeiten aus                   |Verbindlichkeiten aus                                       |
+|EN|0HIER_NODE                    |GKR 2044010                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2044020                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2044030                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2045000                     |Verbindlichkeiten au|Verbindlichkeiten aus der Annahme gezoge|Verbindlichkeiten aus der Annahme gezogener                 |
+|EN|0HIER_NODE                    |GKR 2045010                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2045020                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2045030                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2046000                     |Verbindlichkeiten ge|Verbindlichkeiten gegenueber            |Verbindlichkeiten gegenueber                                |
+|EN|0HIER_NODE                    |GKR 2046010                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2046010/12                  |Verb. BK02          |Verb. BK02                              |Verb. BK02                                                  |
+|EN|0HIER_NODE                    |GKR 2046010/13                  |Verb. BK01          |Verb. BK01                              |Verb. BK01                                                  |
+|EN|0HIER_NODE                    |GKR 2046020                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2046030                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2047000                     |Verbindlichkeiten ge|Verbindlichkeiten gegenueber Unternehmen|Verbindlichkeiten gegenueber Unternehmen,                   |
+|EN|0HIER_NODE                    |GKR 2047010                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2047020                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2047030                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2048000                     |Sonstige Verbindlich|Sonstige Verbindlichkeiten              |Sonstige Verbindlichkeiten                                  |
+|EN|0HIER_NODE                    |GKR 2048010                     |Sonstige Verbindlich|Sonstige Verbindlichkeiten aus Steuern  |Sonstige Verbindlichkeiten aus Steuern                      |
+|EN|0HIER_NODE                    |GKR 2048011                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2048012                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2048013                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2048020                     |Sonstige Verbindlich|Sonstige Verbindlichkeiten im Rahmen    |Sonstige Verbindlichkeiten im Rahmen                        |
+|EN|0HIER_NODE                    |GKR 2048021                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2048022                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2048023                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2048030                     |Andere sonstige Verb|Andere sonstige Verbindlichkeiten       |Andere sonstige Verbindlichkeiten                           |
+|EN|0HIER_NODE                    |GKR 2048031                     |mit einer Restlaufze|mit einer Restlaufzeit bis zu einem Jahr|mit einer Restlaufzeit bis zu einem Jahr                    |
+|EN|0HIER_NODE                    |GKR 2048031/00                  |Sonstige            |Sonstige                                |Sonstige                                                    |
+|EN|0HIER_NODE                    |GKR 2048031/10                  |Umsatzsteuer        |Umsatzsteuer                            |Umsatzsteuer                                                |
+|EN|0HIER_NODE                    |GKR 2048032                     |mit einer Restlaufze|mit einer Restlaufzeit von 1 bis 5 Jahre|mit einer Restlaufzeit von 1 bis 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2048033                     |mit einer Restlaufze|mit einer Restlaufzeit von ueber 5 Jahre|mit einer Restlaufzeit von ueber 5 Jahren                   |
+|EN|0HIER_NODE                    |GKR 2050000                     |Rechnungsabgrenzungs|Rechnungsabgrenzungsposten              |Rechnungsabgrenzungsposten                                  |
+|EN|0HIER_NODE                    |GKR 21                          |A&E für Grundstücke |A&E für Grundstücke u. Gebäude          |A&E für Grundstücke u. Gebäude                              |
+|EN|0HIER_NODE                    |GKR 23                          |Bilanzmäßige Abschre|Bilanzmäßige Abschreibungen             |Bilanzmäßige Abschreibungen                                 |
+|EN|0HIER_NODE                    |GKR 24                          |Zinsaufwendungen u. |Zinsaufwendungen u. Erträge             |Zinsaufwendungen u. Erträge                                 |
+|EN|0HIER_NODE                    |GKR 25                          |Betriebliche auseror|Betriebliche auserord. A&E              |Betriebliche auserord. A&E                                  |
+|EN|0HIER_NODE                    |GKR 26                          |Betriebliche periode|Betriebliche periodenfr. A&E            |Betriebliche periodenfr. A&E                                |
+|EN|0HIER_NODE                    |GKR 28                          |Verrechnete Kalk. Ko|Verrechnete Kalk. Kosten                |Verrechnete Kalk. Kosten                                    |
+|EN|0HIER_NODE                    |GKR 29                          |Gesamtergebnis betre|Gesamtergebnis betreffende A&E          |Gesamtergebnis betreffende A&E                              |
+|EN|0HIER_NODE                    |GKR 3000000                     |Gewinn- und Verlust-|Gewinn- und Verlust-Rechnung            |Gewinn- und Verlust-Rechnung                                |
+|EN|0HIER_NODE                    |GKR 3010000                     |Umsatzerloese       |Umsatzerloese                           |Umsatzerloese                                               |
+|EN|0HIER_NODE                    |GKR 3011000                     |Brutto-Erloese      |Brutto-Erloese                          |Brutto-Erloese                                              |
+|EN|0HIER_NODE                    |GKR 3011010                     |Inland              |Inland                                  |Inland                                                      |
+|EN|0HIER_NODE                    |GKR 3011020                     |Ausland             |Ausland                                 |Ausland                                                     |
+|EN|0HIER_NODE                    |GKR 3012000                     |Erloes-Schmaelerunge|Erloes-Schmaelerungen                   |Erloes-Schmaelerungen                                       |
+|EN|0HIER_NODE                    |GKR 3020000                     |Bestands-Veraenderun|Bestands-Veraenderung                   |Bestands-Veraenderung                                       |
+|EN|0HIER_NODE                    |GKR 3030000                     |Andere aktivierte Ei|Andere aktivierte Eigenleistungen       |Andere aktivierte Eigenleistungen                           |
+|EN|0HIER_NODE                    |GKR 3040000                     |Sonstige betrieblich|Sonstige betriebliche Ertraege          |Sonstige betriebliche Ertraege                              |
+|EN|0HIER_NODE                    |GKR 3041000                     |Ertrag aus der Auflo|Ertrag aus der Aufloesung des Sonderpost|Ertrag aus der Aufloesung des Sonderpostens                 |
+|EN|0HIER_NODE                    |GKR 3042000                     |Uebrige sonstige bet|Uebrige sonstige betriebliche Ertraege  |Uebrige sonstige betriebliche Ertraege                      |
+|EN|0HIER_NODE                    |GKR 3050000                     |Materialaufwand     |Materialaufwand                         |Materialaufwand                                             |
+|EN|0HIER_NODE                    |GKR 3051000                     |Aufwendungen fuer Ro|Aufwendungen fuer Roh-, Hilfs- und      |Aufwendungen fuer Roh-, Hilfs- und                          |
+|EN|0HIER_NODE                    |GKR 3051010                     |Aufwendungen fuer Br|Aufwendungen fuer Brennstoffe           |Aufwendungen fuer Brennstoffe                               |
+|EN|0HIER_NODE                    |GKR 3051020                     |Aufwendungen fuer Tr|Aufwendungen fuer Treibstoffe           |Aufwendungen fuer Treibstoffe                               |
+|EN|0HIER_NODE                    |GKR 3051030                     |Aufwendungen fuer St|Aufwendungen fuer Strom                 |Aufwendungen fuer Strom                                     |
+|EN|0HIER_NODE                    |GKR 3051040                     |Aufwendungen fuer Wa|Aufwendungen fuer Wasser                |Aufwendungen fuer Wasser                                    |
+|EN|0HIER_NODE                    |GKR 3051090                     |Sonstige Aufwendunge|Sonstige Aufwendungen fuer RHB-Stoffe   |Sonstige Aufwendungen fuer RHB-Stoffe                       |
+|EN|0HIER_NODE                    |GKR 3052000                     |Aufwendungen fuer be|Aufwendungen fuer bezogene Leistungen   |Aufwendungen fuer bezogene Leistungen                       |
+|EN|0HIER_NODE                    |GKR 3060000                     |Personalaufwand     |Personalaufwand                         |Personalaufwand                                             |
+|EN|0HIER_NODE                    |GKR 3061000                     |Loehne und Gehaelter|Loehne und Gehaelter                    |Loehne und Gehaelter                                        |
+|EN|0HIER_NODE                    |GKR 3061010                     |Fertigungs-Loehne   |Fertigungs-Loehne                       |Fertigungs-Loehne                                           |
+|EN|0HIER_NODE                    |GKR 3061020                     |Hilfs- und Ausfall-L|Hilfs- und Ausfall-Loehne               |Hilfs- und Ausfall-Loehne                                   |
+|EN|0HIER_NODE                    |GKR 3061030                     |Krankheits-Loehne un|Krankheits-Loehne und Lohnfortzahlung   |Krankheits-Loehne und Lohnfortzahlung                       |
+|EN|0HIER_NODE                    |GKR 3061050                     |Gehaelter           |Gehaelter                               |Gehaelter                                                   |
+|EN|0HIER_NODE                    |GKR 3061090                     |Sonstige Lohn- und G|Sonstige Lohn- und Gehalts-Aufwendungen |Sonstige Lohn- und Gehalts-Aufwendungen                     |
+|EN|0HIER_NODE                    |GKR 3062000                     |Soziale Abgaben und |Soziale Abgaben und Aufwendungen fuer   |Soziale Abgaben und Aufwendungen fuer                       |
+|EN|0HIER_NODE                    |GKR 3062010                     |Soziale Abgaben     |Soziale Abgaben                         |Soziale Abgaben                                             |
+|EN|0HIER_NODE                    |GKR 3062020                     |Aufwendungen fuer Al|Aufwendungen fuer Altersversorgung      |Aufwendungen fuer Altersversorgung                          |
+|EN|0HIER_NODE                    |GKR 3062030                     |Aufwendungen fuer Un|Aufwendungen fuer Unterstuetzung        |Aufwendungen fuer Unterstuetzung                            |
+|EN|0HIER_NODE                    |GKR 3070000                     |Abschreibungen      |Abschreibungen                          |Abschreibungen                                              |
+|EN|0HIER_NODE                    |GKR 3071000                     |AfA auf immaterielle|AfA auf immaterielle Vermoegens-Gegensta|AfA auf immaterielle Vermoegens-Gegenstaende                |
+|EN|0HIER_NODE                    |GKR 3071010                     |planmaessig         |planmaessig                             |planmaessig                                                 |
+|EN|0HIER_NODE                    |GKR 3071020                     |ausserplanmaessig   |ausserplanmaessig                       |ausserplanmaessig                                           |
+|EN|0HIER_NODE                    |GKR 3072000                     |Abschreibungen auf V|Abschreibungen auf Vermoegens-Gegenstaen|Abschreibungen auf Vermoegens-Gegenstaende                  |
+|EN|0HIER_NODE                    |GKR 3073000                     |Abschreibungen auf V|Abschreibungen auf Vermoegens-Gegenstaen|Abschreibungen auf Vermoegens-Gegenstaende                  |
+|EN|0HIER_NODE                    |GKR 3080000                     |Sonstige betrieblich|Sonstige betriebliche Aufwendungen      |Sonstige betriebliche Aufwendungen                          |
+|EN|0HIER_NODE                    |GKR 3081000                     |Aufwand aus der Eins|Aufwand aus der Einstellung in den      |Aufwand aus der Einstellung in den                          |
+|EN|0HIER_NODE                    |GKR 3082000                     |Uebrige sonstige bet|Uebrige sonstige betriebliche Aufwendung|Uebrige sonstige betriebliche Aufwendungen                  |
+|EN|0HIER_NODE                    |GKR 3082010                     |Instandhaltungskoste|Instandhaltungskosten                   |Instandhaltungskosten                                       |
+|EN|0HIER_NODE                    |GKR 3082020                     |Versicherungen      |Versicherungen                          |Versicherungen                                              |
+|EN|0HIER_NODE                    |GKR 3082030                     |Raumkosten          |Raumkosten                              |Raumkosten                                                  |
+|EN|0HIER_NODE                    |GKR 3082040                     |Maschinen-Mieten    |Maschinen-Mieten                        |Maschinen-Mieten                                            |
+|EN|0HIER_NODE                    |GKR 3082050                     |Reisekosten         |Reisekosten                             |Reisekosten                                                 |
+|EN|0HIER_NODE                    |GKR 3082060                     |Kraftfahrzeugkosten |Kraftfahrzeugkosten                     |Kraftfahrzeugkosten                                         |
+|EN|0HIER_NODE                    |GKR 3082070                     |Werbe- und Vertreter|Werbe- und Vertreterkosten              |Werbe- und Vertreterkosten                                  |
+|EN|0HIER_NODE                    |GKR 3082090                     |Sonstige betrieblich|Sonstige betriebliche Aufwendungen      |Sonstige betriebliche Aufwendungen                          |
+|EN|0HIER_NODE                    |GKR 4000000                     |Finanz-Ergebnis     |Finanz-Ergebnis                         |Finanz-Ergebnis                                             |
+|EN|0HIER_NODE                    |GKR 4011000                     |Ertraege aus Beteili|Ertraege aus Beteiligungen              |Ertraege aus Beteiligungen                                  |
+|EN|0HIER_NODE                    |GKR 4011010                     |bei nicht verbundene|bei nicht verbundenen Unternehmen       |bei nicht verbundenen Unternehmen                           |
+|EN|0HIER_NODE                    |GKR 4011020                     |bei verbundenen Unte|bei verbundenen Unternehmen             |bei verbundenen Unternehmen                                 |
+|EN|0HIER_NODE                    |GKR 4012000                     |Aufgrund eines Gewin|Aufgrund eines Gewinnabfuehrungs-Vetrage|Aufgrund eines Gewinnabfuehrungs-Vetrages                   |
+|EN|0HIER_NODE                    |GKR 4013000                     |Ertraege aus anderen|Ertraege aus anderen Wertpapieren und   |Ertraege aus anderen Wertpapieren und                       |
+|EN|0HIER_NODE                    |GKR 4013010                     |aus nicht verbundene|aus nicht verbundenen Unternehmen       |aus nicht verbundenen Unternehmen                           |
+|EN|0HIER_NODE                    |GKR 4013020                     |aus verbundenen Unte|aus verbundenen Unternehmen             |aus verbundenen Unternehmen                                 |
+|EN|0HIER_NODE                    |GKR 4014000                     |Sonstige Zinsen und |Sonstige Zinsen und aehnliche Ertraege  |Sonstige Zinsen und aehnliche Ertraege                      |
+|EN|0HIER_NODE                    |GKR 4014010                     |aus nicht verbundene|aus nicht verbundenen Unternehmen       |aus nicht verbundenen Unternehmen                           |
+|EN|0HIER_NODE                    |GKR 4014020                     |aus verbundenen Unte|aus verbundenen Unternehmen             |aus verbundenen Unternehmen                                 |
+|EN|0HIER_NODE                    |GKR 4015000                     |Abschreibungen auf F|Abschreibungen auf Finanzanlagen und auf|Abschreibungen auf Finanzanlagen und auf                    |
+|EN|0HIER_NODE                    |GKR 4015010                     |Ausserplanmaessige A|Ausserplanmaessige AfA auf Finanz-Anlage|Ausserplanmaessige AfA auf Finanz-Anlagen                   |
+|EN|0HIER_NODE                    |GKR 4015020                     |Abschreibung auf Wer|Abschreibung auf Wertpapiere des Umlauf-|Abschreibung auf Wertpapiere des Umlauf-                    |
+|EN|0HIER_NODE                    |GKR 4015030                     |Andere Abschreibunge|Andere Abschreibungen auf Finanzanlagen |Andere Abschreibungen auf Finanzanlagen und                 |
+|EN|0HIER_NODE                    |GKR 4016000                     |Aufwendungen aus Ver|Aufwendungen aus Verlust-Uebernahme     |Aufwendungen aus Verlust-Uebernahme                         |
+|EN|0HIER_NODE                    |GKR 4017000                     |Zinsen und aehnliche|Zinsen und aehnliche Aufwendungen       |Zinsen und aehnliche Aufwendungen                           |
+|EN|0HIER_NODE                    |GKR 4017010                     |an nicht verbundene |an nicht verbundene Unternehmen         |an nicht verbundene Unternehmen                             |
+|EN|0HIER_NODE                    |GKR 4017020                     |an verbundene Untern|an verbundene Unternehmen               |an verbundene Unternehmen                                   |
+|EN|0HIER_NODE                    |GKR 41                          |Gemeinkostenmaterial|Gemeinkostenmaterial                    |Gemeinkostenmaterial                                        |
+|EN|0HIER_NODE                    |GKR 42                          |Energie             |Energie                                 |Energie                                                     |
+|EN|0HIER_NODE                    |GKR 43                          |Löhne u. Gehälter   |Löhne u. Gehälter                       |Löhne u. Gehälter                                           |
+|EN|0HIER_NODE                    |GKR 44                          |Sozialkosten        |Sozialkosten                            |Sozialkosten                                                |
+|EN|0HIER_NODE                    |GKR 45                          |Instandhaltung      |Instandhaltung                          |Instandhaltung                                              |
+|EN|0HIER_NODE                    |GKR 46                          |Steuern u. Gebühren |Steuern u. Gebühren                     |Steuern u. Gebühren                                         |
+|EN|0HIER_NODE                    |GKR 47                          |Mieten und Werbekost|Mieten und Werbekosten                  |Mieten und Werbekosten                                      |
+|EN|0HIER_NODE                    |GKR 48                          |Kalk. Kosten (AfA)  |Kalk. Kosten (AfA)                      |Kalk. Kosten (AfA)                                          |
+|EN|0HIER_NODE                    |GKR 49                          |Sondereinzelkosten  |Sondereinzelkosten                      |Sondereinzelkosten                                          |
+|EN|0HIER_NODE                    |GKR 5000000                     |Ausserordentliches E|Ausserordentliches Ergebnis             |Ausserordentliches Ergebnis                                 |
+|EN|0HIER_NODE                    |GKR 5011000                     |Ausserordentliche Er|Ausserordentliche Ertraege              |Ausserordentliche Ertraege                                  |
+|EN|0HIER_NODE                    |GKR 5012000                     |Ausserordentliche Au|Ausserordentliche Aufwendungen          |Ausserordentliche Aufwendungen                              |
+|EN|0HIER_NODE                    |GKR 6000000                     |Steuern             |Steuern                                 |Steuern                                                     |
+|EN|0HIER_NODE                    |GKR 6011000                     |Steuern vom Einkomme|Steuern vom Einkommen und vom Ertrag    |Steuern vom Einkommen und vom Ertrag                        |
+|EN|0HIER_NODE                    |GKR 6012000                     |Sonstige Steuern    |Sonstige Steuern                        |Sonstige Steuern                                            |
+|EN|0HIER_NODE                    |GKR 7000000                     |Ergebnis-Verwendung |Ergebnis-Verwendung                     |Ergebnis-Verwendung                                         |
+|EN|0HIER_NODE                    |GKR 7010000                     |Dummyknoten         |Dummyknoten                             |Dummyknoten                                                 |
+|EN|0HIER_NODE                    |GKR 7011000                     |Auf Grund eines Gewi|Auf Grund eines Gewinnabfuehrungs-Vetrag|Auf Grund eines Gewinnabfuehrungs-Vetrages                  |
+|EN|0HIER_NODE                    |GKR 7012000                     |Ertraege aus Verlust|Ertraege aus Verlust-Uebernahme         |Ertraege aus Verlust-Uebernahme                             |
+|EN|0HIER_NODE                    |GKR 7040000                     |Verlust-Vortrag aus |Verlust-Vortrag aus dem Vorjahr         |Verlust-Vortrag aus dem Vorjahr                             |
+|EN|0HIER_NODE                    |GKR 7050000                     |Gewinn-Vortrag aus d|Gewinn-Vortrag aus dem Vorjahr          |Gewinn-Vortrag aus dem Vorjahr                              |
+|EN|0HIER_NODE                    |GKR 7060000                     |Entnahmen aus der Ka|Entnahmen aus der Kapital-Ruecklage     |Entnahmen aus der Kapital-Ruecklage                         |
+|EN|0HIER_NODE                    |GKR 7070000                     |Entnahmen aus Gewinn|Entnahmen aus Gewinn-Ruecklagen         |Entnahmen aus Gewinn-Ruecklagen                             |
+|EN|0HIER_NODE                    |GKR 7080000                     |Einstellungen in Gew|Einstellungen in Gewinn-Ruecklagen      |Einstellungen in Gewinn-Ruecklagen                          |
+|EN|0HIER_NODE                    |GKR 7090000                     |Gewinn aus GuV      |Gewinn aus GuV                          |Gewinn aus GuV                                              |
+|EN|0HIER_NODE                    |GKR 8000000                     |Nicht zugeordnete Ko|Nicht zugeordnete Konten                |Nicht zugeordnete Konten                                    |
+|EN|0HIER_NODE                    |GKR 9000000                     |Anhang              |Anhang                                  |Anhang                                                      |
+|EN|0HIER_NODE                    |GKR 9010000                     |Haftungs-Verhältniss|Haftungs-Verhältnisse                   |Haftungs-Verhältnisse                                       |
+|EN|0HIER_NODE                    |GKR 9011000                     |Haftungs-Verhältniss|Haftungs-Verhältnisse                   |Haftungs-Verhältnisse                                       |
+|EN|0HIER_NODE                    |GKR 9012000                     |Ausgleichs-Posten fu|Ausgleichs-Posten fuer Haftungs-Verhaelt|Ausgleichs-Posten fuer Haftungs-Verhaeltnisse               |
+|EN|0HIER_NODE                    |GKR 9020000                     |Verrechnung kalkulat|Verrechnung kalkulatorische Kosten      |Verrechnung kalkulatorische Kosten                          |
+|EN|0HIER_NODE                    |GKR 9030000                     |Verrechnung Wechsel-|Verrechnung Wechsel-Inkasso             |Verrechnung Wechsel-Inkasso                                 |
+|EN|0HIER_NODE                    |GKR 9050000                     |Verrechnung Anlagen-|Verrechnung Anlagen-Abgang (RA)         |Verrechnung Anlagen-Abgang (RA)                             |
+|EN|0HIER_NODE                    |GKR 9060000                     |Verrechnung WE/RE (R|Verrechnung WE/RE (RM)                  |Verrechnung WE/RE (RM)                                      |
+|EN|0HIER_NODE                    |GKR 9070000                     |Verrechnung Debitore|Verrechnung Debitoren-Geldeingang       |Verrechnung Debitoren-Geldeingang                           |
+|EN|0HIER_NODE                    |GKR 9080000                     |Verrechnung Konzerna|Verrechnung Konzernabschluss-Konten     |Verrechnung Konzernabschluss-Konten                         |
+|EN|0HIER_NODE                    |GKR 9130000                     |Konten, die Saldo Nu|Konten, die Saldo Null ausweisen muessen|Konten, die Saldo Null ausweisen muessen                    |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
